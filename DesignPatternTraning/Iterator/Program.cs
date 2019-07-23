@@ -15,22 +15,12 @@ namespace Iterator
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+
             Console.WriteLine("サンプルプログラム");
-
-            BookShelf bookShelf = new BookShelf(4);
-            bookShelf.AppendBook(new Book("Around the World in 80 Days"));
-            bookShelf.AppendBook(new Book("Bible"));
-            bookShelf.AppendBook(new Book("Chinderella"));
-            bookShelf.AppendBook(new Book("Daddy-Long-Legs"));
-
-            IIterator it = bookShelf.Iterator();
-            while(it.HasNext())
-            {
-                Book book = (Book)it.Next();
-                Console.WriteLine(book.GetName());
-            }
+            new Sample.Sample().Execute();
 
             Console.WriteLine("");
+
             Console.WriteLine("練習問題");
             new Traning.Main().ScanBooks();
 

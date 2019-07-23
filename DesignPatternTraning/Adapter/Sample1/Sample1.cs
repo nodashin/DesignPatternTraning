@@ -14,7 +14,6 @@ namespace Adapter.Sample1
     {
         public void Execute()
         {
-            Console.WriteLine("サンプル1");
             IPrint p = new PrintBanner("Hello");
             p.PrintWeak();
             p.PrintStrong();

@@ -10,6 +10,7 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("サンプル1");
             new Sample1.Sample1().Execute();
 
             Console.ReadKey();
