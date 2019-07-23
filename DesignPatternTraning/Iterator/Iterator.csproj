@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{509B2F3A-5E14-4616-8A89-DB75BB7945CF}</ProjectGuid>
+    <ProjectGuid>{02A5225E-72BC-40C2-82D7-5EBD4D5F32F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Iterator</RootNamespace>
     <AssemblyName>Iterator</AssemblyName>
@@ -43,13 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Elements\Book.cs" />
-    <Compile Include="Elements\BookShelf.cs" />
-    <Compile Include="Elements\BookShelfIterator.cs" />
-    <Compile Include="Elements\IAggregate.cs" />
-    <Compile Include="Elements\IIterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sample\Book.cs" />
+    <Compile Include="Sample\BookShelf.cs" />
+    <Compile Include="Sample\BookShelfIterator.cs" />
+    <Compile Include="Sample\IAggregate.cs" />
+    <Compile Include="Sample\IIterator.cs" />
+    <Compile Include="Traning\Book.cs" />
+    <Compile Include="Traning\BookShelf.cs" />
+    <Compile Include="Traning\BookShelfIterator.cs" />
+    <Compile Include="Traning\IAggregate.cs" />
+    <Compile Include="Traning\IIterator.cs" />
+    <Compile Include="Traning\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
