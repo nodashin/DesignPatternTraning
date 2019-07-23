@@ -3,7 +3,7 @@
 
 ## 教材
 
-(Java言語で学ぶ デザインパターン入門)[https://www.hyuki.com/dp/]
+[Java言語で学ぶ デザインパターン入門](https://www.hyuki.com/dp/)
 
 ## 備考
 
