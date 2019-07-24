@@ -49,9 +49,27 @@
     <Compile Include="Sample1\Elements\IPrint.cs" />
     <Compile Include="Sample1\Elements\PrintBanner.cs" />
     <Compile Include="Sample1\Sample1.cs" />
+    <Compile Include="Sample2\Elements\Banner.cs" />
+    <Compile Include="Sample2\Elements\Print.cs" />
+    <Compile Include="Sample2\Elements\PrintBanner.cs" />
+    <Compile Include="Sample2\Sample2.cs" />
+    <Compile Include="Traning2\Elements\FileProperties.cs" />
+    <Compile Include="Traning2\Elements\IFileIO.cs" />
+    <Compile Include="Traning2\Elements\Properties.cs" />
+    <Compile Include="Traning2\Traning2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Traning1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Traning2\Elements\File\File.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>
