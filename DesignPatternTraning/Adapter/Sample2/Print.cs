@@ -8,6 +8,7 @@ namespace Adapter.Sample2
 {
     /// <summary>
     /// 必要とされている機能を持つクラス
+    /// 役割：Target(対象)
     /// </summary>
     abstract class Print
     {

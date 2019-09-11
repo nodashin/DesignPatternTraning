@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Adapter.Sample2
 {
+    /// <summary>
+    /// 役割：Client(依頼者)
+    /// </summary>
     class Main
     {
         public static void Execute()

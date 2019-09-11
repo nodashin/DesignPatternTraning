@@ -8,6 +8,7 @@ namespace Adapter.Sample1
 {
     /// <summary>
     /// アダプターの役目を果たすクラス
+    /// 役割：Adapter
     /// </summary>
     class PrintBanner : Banner, IPrint
     {

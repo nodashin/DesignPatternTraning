@@ -9,6 +9,7 @@ namespace Adapter.Sample1
     /// <summary>
     /// 予め用意されているクラス
     /// 指定した文字列に括弧やアスタリスクを加える
+    /// 役割：Adaptee(適合される側)
     /// </summary>
     class Banner
     {

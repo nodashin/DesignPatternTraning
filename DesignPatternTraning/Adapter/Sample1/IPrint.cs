@@ -8,6 +8,7 @@ namespace Adapter.Sample1
 {
     /// <summary>
     /// 必要とされている機能を持つインタフェース
+    /// 役割：Target(対象)
     /// </summary>
     interface IPrint
     {
