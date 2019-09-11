@@ -32,7 +32,7 @@ namespace TemplateMethod.Sample
         /// </summary>
         public override void Open()
         {
-            Console.WriteLine("<<");
+            Console.Write("<<");
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace TemplateMethod.Sample
         /// </summary>
         public override void Print()
         {
-            Console.WriteLine(ch);
+            Console.Write(ch);
         }
 
         /// <summary>
