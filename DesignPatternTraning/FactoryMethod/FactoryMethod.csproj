@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Framework\Factory.cs" />
-    <Compile Include="Framework\Product.cs" />
-    <Compile Include="IdCard\IDCard.cs" />
-    <Compile Include="IdCard\IDCardFactory.cs" />
+    <Compile Include="Sample\Framework\Factory.cs" />
+    <Compile Include="Sample\Framework\Product.cs" />
+    <Compile Include="Sample\IdCard\IDCard.cs" />
+    <Compile Include="Sample\IdCard\IDCardFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

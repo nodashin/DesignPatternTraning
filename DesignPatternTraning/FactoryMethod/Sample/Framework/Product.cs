@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryMethod.Framework
+namespace FactoryMethod.Sample.Framework
 {
     /// <summary>
     /// 製品

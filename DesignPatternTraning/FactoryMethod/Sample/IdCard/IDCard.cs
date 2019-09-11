@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FactoryMethod.Framework;
+using FactoryMethod.Sample.Framework;
 
-namespace FactoryMethod.IdCard
+namespace FactoryMethod.Sample.IdCard
 {
     /// <summary>
     /// 認識番号カード
