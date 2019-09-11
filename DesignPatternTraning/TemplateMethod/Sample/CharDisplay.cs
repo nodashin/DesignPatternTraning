@@ -9,6 +9,7 @@ namespace TemplateMethod.Sample
     /// <summary>
     /// メソッドOpen, Print, Closeを実行しているクラス
     /// ＜＜{指定した文字}＞＞形式で表示する。
+    /// 役割：ConcreteClass(具象クラス)
     /// </summary>
     class CharDisplay : AbstractDisplay
     {

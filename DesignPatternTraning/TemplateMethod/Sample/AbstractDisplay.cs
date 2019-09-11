@@ -8,6 +8,7 @@ namespace TemplateMethod.Sample
 {
     /// <summary>
     /// メソッドDisplayのみ実装されている抽象クラス
+    /// 役割：AbstractClass(抽象クラス)
     /// </summary>
     abstract class AbstractDisplay
     {

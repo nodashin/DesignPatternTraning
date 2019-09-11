@@ -15,6 +15,7 @@ namespace TemplateMethod.Sample
     /// |{指定した文字列}|
     /// |{指定した文字列}|
     /// +----------------+ と表示する。
+    /// 役割：ConcreteClass(具象クラス)
     /// </summary>
     class StringDisplay : AbstractDisplay
     {
