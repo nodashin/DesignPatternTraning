@@ -53,6 +53,10 @@
     <Compile Include="Sample2\Main.cs" />
     <Compile Include="Sample2\Print.cs" />
     <Compile Include="Sample2\PrintBanner.cs" />
+    <Compile Include="Traning2\FileProperties.cs" />
+    <Compile Include="Traning2\IFIleIO.cs" />
+    <Compile Include="Traning2\Main.cs" />
+    <Compile Include="Traning2\Properties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -62,6 +66,11 @@
       <Project>{C22F4C7A-FB95-488E-9668-60278730DE08}</Project>
       <Name>Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Traning2\Files\file.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
