@@ -15,6 +15,12 @@ namespace Adapter
             Sample1.Main.Execute();
             ConsoleWriter.WriteEnd("Sample1");
 
+            ConsoleWriter.WriteDelimiter();
+
+            ConsoleWriter.WriteStart("Sample2");
+            Sample2.Main.Execute();
+            ConsoleWriter.WriteEnd("Sample2");
+
             Console.ReadKey();
         }
     }
