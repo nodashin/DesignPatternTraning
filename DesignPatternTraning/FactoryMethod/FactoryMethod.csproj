@@ -61,7 +61,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Traning2\" />
+    <Folder Include="Traning2\Framwrork\" />
+    <Folder Include="Traning2\IdCard\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
