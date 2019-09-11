@@ -51,6 +51,12 @@
     <Compile Include="Sample\IAggregate.cs" />
     <Compile Include="Sample\IIterator.cs" />
     <Compile Include="Sample\Main.cs" />
+    <Compile Include="Traning\Book.cs" />
+    <Compile Include="Traning\BookShelf.cs" />
+    <Compile Include="Traning\BookShelfIterator.cs" />
+    <Compile Include="Traning\IAggregate.cs" />
+    <Compile Include="Traning\IIterator.cs" />
+    <Compile Include="Traning\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

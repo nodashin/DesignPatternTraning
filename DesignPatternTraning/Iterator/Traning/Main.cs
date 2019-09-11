@@ -4,29 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterator.Sample
+namespace Iterator.Traning
 {
     class Main
     {
         public static void Execute()
         {
-            Console.WriteLine("***** Sample start *****");
+            Console.WriteLine("***** Traning start *****");
             Console.WriteLine();
 
-            BookShelf bookShelf = new BookShelf(4);
+            var bookShelf = new BookShelf();
             bookShelf.AppendBook(new Book("Around the world in 80 Days"));
             bookShelf.AppendBook(new Book("Bible"));
             bookShelf.AppendBook(new Book("Cinderella"));
             bookShelf.AppendBook(new Book("Daddy-Long-Legs"));
-            IIterator it = bookShelf.Iterator();
-            while(it.HasNext())
+            IIterator<Book> iterator = bookShelf.CreateIterator();
+            while (iterator.HasNext())
             {
-                Book book = (Book)it.Next();
-                Console.WriteLine(book.GetName());
+                var book = iterator.Next();
+                Console.WriteLine(book.Name);
             }
 
             Console.WriteLine();
-            Console.WriteLine("***** Sample end *****");
+            Console.WriteLine("***** Traning end *****");
         }
     }
 }

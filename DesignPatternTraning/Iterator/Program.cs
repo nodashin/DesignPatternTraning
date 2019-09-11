@@ -11,6 +11,13 @@ namespace Iterator
         static void Main(string[] args)
         {
             Sample.Main.Execute();
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Traning.Main.Execute();
+
+            Console.ReadKey();
         }
     }
 }
