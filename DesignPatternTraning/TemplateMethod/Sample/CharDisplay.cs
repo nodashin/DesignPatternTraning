@@ -8,6 +8,7 @@ namespace TemplateMethod.Sample
 {
     /// <summary>
     /// メソッドOpen, Print, Closeを実行しているクラス
+    /// ＜＜{指定した文字}＞＞形式で表示する。
     /// </summary>
     class CharDisplay : AbstractDisplay
     {
