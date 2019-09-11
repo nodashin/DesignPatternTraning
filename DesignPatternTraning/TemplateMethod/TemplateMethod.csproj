@@ -47,6 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sample\AbstractDisplay.cs" />
     <Compile Include="Sample\CharDisplay.cs" />
+    <Compile Include="Sample\StringDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
