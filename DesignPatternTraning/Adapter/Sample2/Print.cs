@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter.Sample1
+namespace Adapter.Sample2
 {
     /// <summary>
-    /// 必要とされている機能を持つインタフェース
+    /// 必要とされている機能を持つクラス
     /// </summary>
-    interface IPrint
+    abstract class Print
     {
         /// <summary>
         /// 文字列を弱く表示する。
         /// </summary>
-        void PrintWeek();
+        public abstract void PrintWeek();
 
         /// <summary>
         /// 文字列を強く表示する。
         /// </summary>
-        void PrintStrong();
+        public abstract void PrintStrong();
     }
 }

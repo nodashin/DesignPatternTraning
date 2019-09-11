@@ -49,6 +49,8 @@
     <Compile Include="Sample1\IPrint.cs" />
     <Compile Include="Sample1\Main.cs" />
     <Compile Include="Sample1\PrintBanner.cs" />
+    <Compile Include="Sample2\Banner.cs" />
+    <Compile Include="Sample2\Print.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
