@@ -14,7 +14,7 @@ namespace Iterator.Sample
         /// <summary>
         /// 本の名前
         /// </summary>
-        private readonly string name;
+        private string name;
 
         /// <summary>
         /// コンストラクタ
