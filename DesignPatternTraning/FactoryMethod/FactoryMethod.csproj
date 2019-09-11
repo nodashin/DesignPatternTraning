@@ -52,6 +52,7 @@
     <Compile Include="Sample\Main.cs" />
     <Compile Include="Traning2\Framwrork\Factory.cs" />
     <Compile Include="Traning2\Framwrork\Product.cs" />
+    <Compile Include="Traning2\IdCard\IDCard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -62,8 +63,6 @@
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Traning2\IdCard\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
