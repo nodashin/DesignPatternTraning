@@ -45,14 +45,13 @@
   <ItemGroup>
     <Compile Include="Framework\Factory.cs" />
     <Compile Include="Framework\Product.cs" />
+    <Compile Include="IdCard\IDCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="IdCard\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
