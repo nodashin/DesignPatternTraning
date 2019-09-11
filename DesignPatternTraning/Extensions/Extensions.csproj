@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A66D3EA9-0203-46B9-AC8D-194833C77E8D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Iterator</RootNamespace>
-    <AssemblyName>Iterator</AssemblyName>
+    <ProjectGuid>{4CA1A740-6FF2-474B-B549-01F655C3B9C6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Extensions</RootNamespace>
+    <AssemblyName>Extensions</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,29 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ConsoleExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sample\Book.cs" />
-    <Compile Include="Sample\BookShelf.cs" />
-    <Compile Include="Sample\BookShelfIterator.cs" />
-    <Compile Include="Sample\IAggregate.cs" />
-    <Compile Include="Sample\IIterator.cs" />
-    <Compile Include="Sample\Main.cs" />
-    <Compile Include="Traning\Book.cs" />
-    <Compile Include="Traning\BookShelf.cs" />
-    <Compile Include="Traning\BookShelfIterator.cs" />
-    <Compile Include="Traning\IAggregate.cs" />
-    <Compile Include="Traning\IIterator.cs" />
-    <Compile Include="Traning\Main.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{c22f4c7a-fb95-488e-9668-60278730de08}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

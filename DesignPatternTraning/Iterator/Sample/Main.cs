@@ -10,9 +10,6 @@ namespace Iterator.Sample
     {
         public static void Execute()
         {
-            Console.WriteLine("***** Sample start *****");
-            Console.WriteLine();
-
             BookShelf bookShelf = new BookShelf(4);
             bookShelf.AppendBook(new Book("Around the world in 80 Days"));
             bookShelf.AppendBook(new Book("Bible"));
@@ -24,9 +21,6 @@ namespace Iterator.Sample
                 Book book = (Book)it.Next();
                 Console.WriteLine(book.GetName());
             }
-
-            Console.WriteLine();
-            Console.WriteLine("***** Sample end *****");
         }
     }
 }
