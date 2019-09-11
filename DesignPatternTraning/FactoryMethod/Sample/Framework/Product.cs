@@ -8,6 +8,7 @@ namespace FactoryMethod.Sample.Framework
 {
     /// <summary>
     /// 製品
+    /// 役割：Product(製品)
     /// </summary>
     abstract class Product
     {

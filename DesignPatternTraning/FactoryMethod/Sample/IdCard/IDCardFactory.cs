@@ -9,6 +9,7 @@ namespace FactoryMethod.Sample.IdCard
 {
     /// <summary>
     /// IDカード工場
+    /// 役割：ConcreteCreator(具体的作成者)
     /// </summary>
     class IDCardFactory : Factory
     {

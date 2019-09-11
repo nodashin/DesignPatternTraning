@@ -9,6 +9,7 @@ namespace FactoryMethod.Sample.IdCard
 {
     /// <summary>
     /// 認識番号カード
+    /// 役割：ConcreteProduct(具体的製品)
     /// </summary>
     class IDCard : Product
     {

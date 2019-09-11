@@ -8,6 +8,7 @@ namespace FactoryMethod.Sample.Framework
 {
     /// <summary>
     /// 製品を作る工場
+    /// 役割：Creator(作成者)
     /// </summary>
     abstract class Factory
     {
