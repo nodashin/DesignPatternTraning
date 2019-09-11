@@ -15,6 +15,12 @@ namespace FactoryMethod
             Sample.Main.Execute();
             ConsoleWriter.WriteEnd("Sample");
 
+            ConsoleWriter.WriteDelimiter();
+
+            ConsoleWriter.WriteStart("Traning2");
+            Traning2.Main.Execute();
+            ConsoleWriter.WriteEnd("Traning2");
+
             Console.ReadKey();
         }
     }

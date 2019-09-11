@@ -54,6 +54,7 @@
     <Compile Include="Traning2\Framwrork\Product.cs" />
     <Compile Include="Traning2\IdCard\IDCard.cs" />
     <Compile Include="Traning2\IdCard\IDCardFactory.cs" />
+    <Compile Include="Traning2\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
