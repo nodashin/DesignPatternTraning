@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// 数え上げ、スキャンを行うインタフェース
+    /// 役割：Iterator(反復子)
     /// </summary>
     interface IIterator
     {

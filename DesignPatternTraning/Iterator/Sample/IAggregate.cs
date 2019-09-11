@@ -8,6 +8,7 @@ namespace Iterator.Sample
 {
     /// <summary>
     /// 集合体を表すインタフェース
+    /// 役割：Aggregate(集合体)
     /// </summary>
     interface IAggregate
     {

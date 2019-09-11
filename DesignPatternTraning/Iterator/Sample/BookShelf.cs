@@ -8,6 +8,7 @@ namespace Iterator.Sample
 {
     /// <summary>
     /// 本棚を表すクラス
+    /// 役割：ConcreteAggregate(具体的な集合体)
     /// </summary>
     class BookShelf : IAggregate
     {

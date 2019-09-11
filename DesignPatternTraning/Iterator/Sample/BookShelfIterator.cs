@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// 本棚をスキャンするクラス
+    /// 役割：ConcreteIterator(具体的な反復子))
     /// </summary>
     class BookShelfIterator : IIterator
     {
