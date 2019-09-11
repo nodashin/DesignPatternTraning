@@ -10,6 +10,7 @@ namespace Iterator
     {
         static void Main(string[] args)
         {
+            Sample.Main.Execute();
         }
     }
 }

@@ -50,6 +50,7 @@
     <Compile Include="Sample\BookShelfIterator.cs" />
     <Compile Include="Sample\IAggregate.cs" />
     <Compile Include="Sample\IIterator.cs" />
+    <Compile Include="Sample\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
