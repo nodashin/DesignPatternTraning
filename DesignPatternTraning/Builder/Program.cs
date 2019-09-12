@@ -27,7 +27,7 @@ namespace Builder
 
             writer = new ConsoleWriter("Traning2");
             writer.WriteStart();
-            Traning2.Main.Execute();
+            Traning3.Main.Execute();
             writer.WriteEnd();
 
             Console.ReadKey();

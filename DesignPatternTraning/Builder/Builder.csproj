@@ -54,8 +54,8 @@
     <Compile Include="Traning1\IDocumentBuilder.cs" />
     <Compile Include="Traning1\Main.cs" />
     <Compile Include="Traning1\TextDocumentBuilder.cs" />
-    <Compile Include="Traning2\Main.cs" />
-    <Compile Include="Traning2\MarkdownDocumentBuilder.cs" />
+    <Compile Include="Traning3\Main.cs" />
+    <Compile Include="Traning3\MarkdownDocumentBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

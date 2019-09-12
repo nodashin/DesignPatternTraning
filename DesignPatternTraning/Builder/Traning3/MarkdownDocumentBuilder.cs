@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Builder.Traning1;
 
-namespace Builder.Traning2
+namespace Builder.Traning3
 {
     /// <summary>
     /// Markdownドキュメントビルダー
