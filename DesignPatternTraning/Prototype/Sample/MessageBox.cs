@@ -3,46 +3,52 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Prototype.Framework;
+using Prototype.Sample.Framework;
 
-namespace Prototype
+namespace Prototype.Sample
 {
     /// <summary>
-    /// Useメソッドに与えられた文字列をダブルコーテーションで囲い、ulcharの文字を下線とする。
-    /// 例えばulcharが '~' のとき、「Hello」という文字列がUseメソッドに与えられたら
+    /// Useメソッドに与えられた文字列を、decocharで囲う。
+    /// 例えばdecocharが '*' のとき、「Hello」という文字列がUseメソッドに与えられたら
     /// 
-    /// "Hello"
-    /// ~~~~~~~
+    /// *********
+    /// * Hello *
+    /// *********
+    /// 
     /// と表示する。
     /// </summary>
-    class UnderLinePen : IProduct
+    class MessageBox : IProduct
     {
         /// <summary>
-        /// Useメソッドで与えられた文字列の下線となる文字
+        /// Useメソッドで与えられた文字列を囲む文字
         /// </summary>
-        private char ulchar;
+        private char decochar;
 
         /// <summary>
         /// コンストラクタ
         /// </summary>
-        /// <param name="ulchar">Useメソッドで与えられた文字列の下線となる文字</param>
-        public UnderLinePen(char ulchar)
+        /// <param name="decochar">Useメソッドで与えられた文字列を囲む文字</param>
+        public MessageBox(char decochar)
         {
-            this.ulchar = ulchar;
+            this.decochar = decochar;
         }
 
         /// <summary>
-        /// 与えられた文字列を二重引用符でくくりながら、文字列の部分に下線を引く。
+        /// 指定された文字列をdecocharで囲んで出力する。
         /// </summary>
         /// <param name="s">出力する文字列</param>
         public void Use(string s)
         {
             int length = Encoding.GetEncoding("shift-jis").GetBytes(s).Length;
-            Console.WriteLine("\"" + s + "\"");
-            Console.Write(" ");
-            for (int i = 0; i < length; i++)
+            for (int i = 0; i < length + 4; i++)
             {
-                Console.Write(ulchar);
+                Console.Write(decochar);
+            }
+            Console.WriteLine();
+            Console.WriteLine(decochar + " " + s + " " + decochar);
+            for (int i = 0; i < length + 4; i++)
+            {
+                Console.Write(decochar);
             }
             Console.WriteLine();
         }
@@ -64,5 +70,6 @@ namespace Prototype
         {
             return (IProduct)this.Clone();
         }
+
     }
 }

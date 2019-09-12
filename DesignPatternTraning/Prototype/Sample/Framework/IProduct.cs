@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prototype.Framework
+namespace Prototype.Sample.Framework
 {
     /// <summary>
     /// 抽象メソッド Use と CleateClone が宣言されているインタフェース

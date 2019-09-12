@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prototype.Framework
+namespace Prototype.Sample.Framework
 {
     /// <summary>
     /// IProductインタフェースを利用してインスタンスの複製を行うクラス。
