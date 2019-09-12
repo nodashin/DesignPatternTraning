@@ -50,6 +50,8 @@
     <Compile Include="Sample\HTMLBuilder.cs" />
     <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\TextBuilder.cs" />
+    <Compile Include="Traning1\Director.cs" />
+    <Compile Include="Traning1\IDocumentBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
