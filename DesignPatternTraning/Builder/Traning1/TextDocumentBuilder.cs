@@ -23,7 +23,9 @@ namespace Builder.Traning1
         public void WriteTitle(string title)
         {
             this.WriteLine();
+            this.wroteContent.Append(Environment.NewLine);
             this.wroteContent.Append($"『{title}』");
+            this.wroteContent.Append(Environment.NewLine);
             this.wroteContent.Append(Environment.NewLine);
         }
 
@@ -45,7 +47,10 @@ namespace Builder.Traning1
         public void WriteItems(params string[] items)
         {
             foreach (var item in items)
+            {
                 this.wroteContent.Append($"・{item}");
+                this.wroteContent.Append(Environment.NewLine);
+            }
             this.wroteContent.Append(Environment.NewLine);
         }
 
@@ -57,7 +62,8 @@ namespace Builder.Traning1
         /// </returns>
         public string Complete()
         {
-            throw new NotImplementedException();
+            this.WriteLine();
+            return this.wroteContent.ToString();
         }
 
         /// <summary>

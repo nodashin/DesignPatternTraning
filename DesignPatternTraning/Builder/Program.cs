@@ -16,6 +16,13 @@ namespace Builder
             Sample.Main.Execute();
             writer.WriteEnd();
 
+            ConsoleWriter.WriteDelimiter();
+
+            writer = new ConsoleWriter("Traning1");
+            writer.WriteStart();
+            Traning1.Main.Execute();
+            writer.WriteEnd();
+
             Console.ReadKey();
         }
     }
