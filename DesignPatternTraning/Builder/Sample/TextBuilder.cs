@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Builder.Sample
 {
     /// <summary>
-    /// プレーンテキストを使って文章を構築する。
+    /// プレーンテキストを使って文書を構築する。
     /// </summary>
     class TextBuilder : Builder
     {
@@ -58,7 +58,7 @@ namespace Builder.Sample
         }
 
         /// <summary>
-        /// 文章の完成。
+        /// 文書の完成。
         /// </summary>
         public override void Close()
         {
@@ -67,9 +67,9 @@ namespace Builder.Sample
         }
 
         /// <summary>
-        /// 完成した文章を取得する。
+        /// 完成した文書を取得する。
         /// </summary>
-        /// <returns>完成した文章</returns>
+        /// <returns>完成した文書</returns>
         public string GetResult()
         {
             return buffer.ToString();

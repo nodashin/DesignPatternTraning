@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Builder.Sample
 {
     /// <summary>
-    /// Bulderクラスで宣言されているメソッドを使って文章を作る。
+    /// Bulderクラスで宣言されているメソッドを使って文書を作る。
     /// </summary>
     class Director
     {
