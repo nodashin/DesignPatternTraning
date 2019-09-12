@@ -11,21 +11,24 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
-            ConsoleWriter.WriteStart("Sample1");
+            var writer = new ConsoleWriter("Sample1");
+            writer.WriteStart();
             Sample1.Main.Execute();
-            ConsoleWriter.WriteEnd("Sample1");
+            writer.WriteEnd();
 
             ConsoleWriter.WriteDelimiter();
 
-            ConsoleWriter.WriteStart("Sample2");
+            writer = new ConsoleWriter("Sample2");
+            writer.WriteStart();
             Sample2.Main.Execute();
-            ConsoleWriter.WriteEnd("Sample2");
+            writer.WriteEnd();
 
             ConsoleWriter.WriteDelimiter();
 
-            ConsoleWriter.WriteStart("Traning2");
+            writer = new ConsoleWriter("Traning2");
+            writer.WriteStart();
             Traning2.Main.Execute();
-            ConsoleWriter.WriteEnd("Traning2");
+            writer.WriteEnd();
 
             Console.ReadKey();
         }

@@ -11,15 +11,17 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            ConsoleWriter.WriteStart("Sample");
+            var writer = new ConsoleWriter("Sample");
+            writer.WriteStart();
             Sample.Main.Execute();
-            ConsoleWriter.WriteEnd("Sample");
+            writer.WriteEnd();
 
             ConsoleWriter.WriteDelimiter();
 
-            ConsoleWriter.WriteStart("Traning2");
+            writer = new ConsoleWriter("Traning2");
+            writer.WriteStart();
             Traning2.Main.Execute();
-            ConsoleWriter.WriteEnd("Traning2");
+            writer.WriteEnd();
 
             Console.ReadKey();
         }

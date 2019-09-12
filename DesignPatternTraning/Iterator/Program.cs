@@ -11,15 +11,17 @@ namespace Iterator
     {
         static void Main(string[] args)
         {
-            ConsoleWriter.WriteStart("Sample");
+            var writer = new ConsoleWriter("Sample");
+            writer.WriteStart();
             Sample.Main.Execute();
-            ConsoleWriter.WriteEnd("Sample");
+            writer.WriteEnd();
 
             ConsoleWriter.WriteDelimiter();
 
-            ConsoleWriter.WriteStart("Traning");
+            writer = new ConsoleWriter("Traning");
+            writer.WriteStart();
             Traning.Main.Execute();
-            ConsoleWriter.WriteEnd("Traning");
+            writer.WriteEnd();
 
             Console.ReadKey();
         }

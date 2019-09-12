@@ -9,26 +9,35 @@ namespace Common
     /// <summary>
     /// コンソールライター
     /// </summary>
-    public static class ConsoleWriter
+    public class ConsoleWriter
     {
         /// <summary>
-        /// 開始メッセージを書き込む。
+        /// プログラム名
         /// </summary>
-        /// <param name="programName">プログラム名</param>
-        public static void WriteStart(string programName)
+        public string ProgramName { get; }
+
+        /// <summary>
+        /// プログラム名
+        /// </summary>
+        /// <param name="programName"></param>
+        public ConsoleWriter(string programName)
         {
-            Console.WriteLine($"***** {programName} start *****");
-            Console.WriteLine();
+            ProgramName = programName;
         }
 
         /// <summary>
-        /// 終了メッセージを書き込む。
+        /// 開始を書き込む。
         /// </summary>
-        /// <param name="programName">プログラム名</param>
-        public static void WriteEnd(string programName)
+        public void WriteStart()
+        {
+            Console.WriteLine($"***** {this.ProgramName} start *****");
+            Console.WriteLine();
+        }
+
+        public void WriteEnd()
         {
             Console.WriteLine();
-            Console.WriteLine($"***** {programName} end *****");
+            Console.WriteLine($"***** {this.ProgramName} end *****");
         }
 
         /// <summary>

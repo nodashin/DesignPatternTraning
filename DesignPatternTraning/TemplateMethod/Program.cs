@@ -11,9 +11,10 @@ namespace TemplateMethod
     {
         static void Main(string[] args)
         {
-            ConsoleWriter.WriteStart("Sample");
+            var writer = new ConsoleWriter("Sample");
+            writer.WriteStart();
             Sample.Main.Execute();
-            ConsoleWriter.WriteEnd("Sample");
+            writer.WriteEnd();
 
             Console.ReadKey();
         }
