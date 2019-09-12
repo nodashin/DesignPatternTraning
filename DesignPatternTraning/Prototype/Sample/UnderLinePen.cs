@@ -14,6 +14,7 @@ namespace Prototype.Sample
     /// "Hello"
     /// ~~~~~~~
     /// と表示する。
+    /// 役割：ConcretePrototype(具体的な原型)
     /// </summary>
     class UnderLinePen : IProduct
     {

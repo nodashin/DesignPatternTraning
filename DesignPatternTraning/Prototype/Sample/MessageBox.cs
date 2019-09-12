@@ -16,6 +16,7 @@ namespace Prototype.Sample
     /// *********
     /// 
     /// と表示する。
+    /// 役割：ConcretePrototype(具体的な原型)
     /// </summary>
     class MessageBox : IProduct
     {

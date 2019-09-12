@@ -8,6 +8,7 @@ namespace Prototype.Sample.Framework
 {
     /// <summary>
     /// IProductインタフェースを利用してインスタンスの複製を行うクラス。
+    /// 役割：Client(利用者)
     /// </summary>
     class Manager
     {

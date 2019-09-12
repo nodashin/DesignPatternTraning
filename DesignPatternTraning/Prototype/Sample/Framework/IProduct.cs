@@ -8,6 +8,7 @@ namespace Prototype.Sample.Framework
 {
     /// <summary>
     /// 抽象メソッド Use と CleateClone が宣言されているインタフェース
+    /// 役割：Prototype(原型)
     /// </summary>
     interface IProduct : ICloneable
     {
