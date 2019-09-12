@@ -25,7 +25,7 @@ namespace Builder.Sample
             //飾り線
             buffer.Append("==================================================\n");
             //『』つきのタイトル
-            buffer.Append("『" + title + "』");
+            buffer.Append("『" + title + "』\n");
             //空行
             buffer.Append("\n");
         }

@@ -39,7 +39,7 @@ namespace Builder.Sample
             //別の文字列
             builder.MakeString("夜に");
             //別の箇条書き
-            builder.MakeItems(new string[] { "こんばんは。", "おやすみなさい。", "さようなら" });
+            builder.MakeItems(new string[] { "こんばんは。", "おやすみなさい。", "さようなら。" });
             //文章を完成させる。
             builder.Close();
         }
