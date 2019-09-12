@@ -9,6 +9,7 @@ namespace Builder.Sample
 {
     /// <summary>
     /// HTMLファイルとして文書を構築する。
+    /// 役割：ConcreteBuilder(具体的建築者)
     /// </summary>
     class HTMLBuilder : Builder
     {

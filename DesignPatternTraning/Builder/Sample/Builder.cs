@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Builder.Sample
 {
     /// <summary>
-    /// 文書を構成するためのメソッドを定めた抽象クラス
+    /// 文書を構成するためのメソッドを定めた抽象クラス。
+    /// 役割：Builder(建築者)
     /// </summary>
     abstract class Builder
     {

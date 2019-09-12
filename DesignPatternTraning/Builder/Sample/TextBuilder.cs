@@ -8,6 +8,7 @@ namespace Builder.Sample
 {
     /// <summary>
     /// プレーンテキストを使って文書を構築する。
+    /// 役割：ConcreteBuilder(具体的建築者)
     /// </summary>
     class TextBuilder : Builder
     {

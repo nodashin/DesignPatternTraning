@@ -8,6 +8,7 @@ namespace Builder.Sample
 {
     /// <summary>
     /// Bulderクラスで宣言されているメソッドを使って文書を作る。
+    /// 役割：Director(監督者)
     /// </summary>
     class Director
     {
