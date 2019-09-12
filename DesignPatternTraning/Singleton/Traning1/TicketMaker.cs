@@ -12,6 +12,11 @@ namespace Singleton.Traning1
     class TicketMaker
     {
         /// <summary>
+        /// チケットメーカー
+        /// </summary>
+        static readonly TicketMaker ticketMaker = new TicketMaker();
+
+        /// <summary>
         /// チケットNo.
         /// </summary>
         static int TicketNumber { get; set; } = 1000;
@@ -33,6 +38,6 @@ namespace Singleton.Traning1
         /// </summary>
         /// <returns>チケットメーカー</returns>
         public static TicketMaker GetTicketMaker()
-            => new TicketMaker();
+            => TicketMaker.ticketMaker;
     }
 }
