@@ -54,7 +54,7 @@ namespace Singleton.Traning2
                 return instance;
 
             //IDがnullのインスタンスが無い(作成上限に達した)場合はエラーを返す。
-            instance = Triple.Triples.SingleOrDefault(t => t.Id == null);
+            instance = Triple.Triples.FirstOrDefault(t => t.Id == null);
             if (instance == null)
                 throw new ApplicationException("これ以上インスタンスは生成できません。");
 

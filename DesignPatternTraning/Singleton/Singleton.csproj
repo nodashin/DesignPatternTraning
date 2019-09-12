@@ -49,6 +49,7 @@
     <Compile Include="Sample\Singleton.cs" />
     <Compile Include="Traning1\Main.cs" />
     <Compile Include="Traning1\TicketMaker.cs" />
+    <Compile Include="Traning2\Main.cs" />
     <Compile Include="Traning2\Triple.cs" />
   </ItemGroup>
   <ItemGroup>
