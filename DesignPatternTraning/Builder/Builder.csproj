@@ -52,6 +52,7 @@
     <Compile Include="Sample\TextBuilder.cs" />
     <Compile Include="Traning1\Director.cs" />
     <Compile Include="Traning1\IDocumentBuilder.cs" />
+    <Compile Include="Traning1\TextDocumentBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
