@@ -16,7 +16,7 @@ namespace Prototype.Framework
         /// 「使う」が何を意味するかは、サブクラスの実装にまかされている。
         /// </summary>
         /// <param name="s">引数</param>
-        void User(string s);
+        void Use(string s);
 
         /// <summary>
         /// インスタンスの複製を行うためのもの。
