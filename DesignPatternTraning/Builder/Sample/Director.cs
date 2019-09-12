@@ -32,19 +32,14 @@ namespace Builder.Sample
         {
             //タイトル
             builder.MakeTitle("Greeting");
-
             //文字列
             builder.MakeString("朝から昼にかけて");
-
             //箇条書き
             builder.MakeItems(new string[] { "おはようございます。", "こんにちは。" });
-
             //別の文字列
             builder.MakeString("夜に");
-
             //別の箇条書き
             builder.MakeItems(new string[] { "こんばんは。", "おやすみなさい。", "さようなら" });
-
             //文章を完成させる。
             builder.Close();
         }
