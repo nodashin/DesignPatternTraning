@@ -8,6 +8,7 @@ namespace Singleton.Sample
 {
     /// <summary>
     /// シングルトン
+    /// 役割：Singleton
     /// </summary>
     class Singleton
     {
