@@ -55,6 +55,7 @@
     <Compile Include="Sample\ListFactory\ListPage.cs" />
     <Compile Include="Sample\ListFactory\ListTray.cs" />
     <Compile Include="Sample\Main.cs" />
+    <Compile Include="Sample\TableFactory\TableFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -65,8 +66,6 @@
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Sample\TableFactory\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
