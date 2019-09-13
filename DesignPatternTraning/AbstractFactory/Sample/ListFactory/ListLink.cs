@@ -22,7 +22,7 @@ namespace AbstractFactory.Sample.ListFactory
         /// <returns>作成したHTML</returns>
         public override string MakeHTML()
         {
-            return "  <li><a href=\"" + url + "\">" + caption + "</a><li>\n";
+            return "  <li><a href=\"" + url + "\">" + caption + "</a></li>\n";
         }
     }
 }

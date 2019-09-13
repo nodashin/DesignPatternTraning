@@ -17,6 +17,8 @@ namespace AbstractFactory
             writer.WriteEnd();
 
             ConsoleWriter.WriteDelimiter();
+
+            Console.ReadKey();
         }
     }
 }
