@@ -51,6 +51,8 @@
     <Compile Include="Sample\Factory\Page.cs" />
     <Compile Include="Sample\Factory\Tray.cs" />
     <Compile Include="Sample\ListFactory\ListFactory.cs" />
+    <Compile Include="Sample\ListFactory\ListLink.cs" />
+    <Compile Include="Sample\ListFactory\ListTray.cs" />
     <Compile Include="Sample\Main.cs" />
   </ItemGroup>
   <ItemGroup>
