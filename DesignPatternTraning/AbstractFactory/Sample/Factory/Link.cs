@@ -8,6 +8,7 @@ namespace AbstractFactory.Sample.Factory
 {
     /// <summary>
     /// HTMLのハイパーリンク
+    /// 役割：AbstractProduct(抽象的な製品)
     /// </summary>
     abstract class Link : Item
     {

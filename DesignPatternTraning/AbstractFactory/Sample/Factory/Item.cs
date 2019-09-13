@@ -9,6 +9,7 @@ namespace AbstractFactory.Sample.Factory
     /// <summary>
     /// 項目
     /// LinkとTrayのスーパークラス
+    /// 役割：AbstractProduct(抽象的な製品)
     /// </summary>
     public abstract class Item
     {

@@ -9,6 +9,7 @@ namespace AbstractFactory.Sample.Factory
 {
     /// <summary>
     /// HTMLページ全体を抽象的に表現したクラス。
+    /// 役割：AbstractProduct(抽象的な製品)
     /// </summary>
     abstract class Page
     {

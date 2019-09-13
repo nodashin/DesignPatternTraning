@@ -5,6 +5,7 @@ namespace AbstractFactory.Sample.TableFactory
 {
     /// <summary>
     /// Pageクラスのサブクラス
+    /// 役割：ConcreteProducut(具体的な製品)
     /// </summary>
     internal class TablePage : Page
     {

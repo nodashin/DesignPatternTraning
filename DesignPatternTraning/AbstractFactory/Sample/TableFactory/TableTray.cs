@@ -5,6 +5,7 @@ namespace AbstractFactory.Sample.TableFactory
 {
     /// <summary>
     /// Trayクラスのサブクラス
+    /// 役割：ConcreteProducut(具体的な製品)
     /// </summary>
     internal class TableTray : Tray
     {

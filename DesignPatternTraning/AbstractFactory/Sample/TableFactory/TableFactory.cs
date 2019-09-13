@@ -9,6 +9,7 @@ namespace AbstractFactory.Sample.TableFactory
 {
     /// <summary>
     /// Factoryクラスのサブクラス
+    /// 役割：ConcreteFactory(具体的な工場)
     /// </summary>
     class TableFactory : Factory.Factory
     {

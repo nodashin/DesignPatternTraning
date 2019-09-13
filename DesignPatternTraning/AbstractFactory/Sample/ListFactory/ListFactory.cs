@@ -9,6 +9,7 @@ namespace AbstractFactory.Sample.ListFactory
 {
     /// <summary>
     /// 具体的な工場
+    /// 役割：ConcreteFactory(具体的な工場)
     /// </summary>
     class ListFactory : Factory.Factory
     {

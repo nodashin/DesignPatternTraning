@@ -8,6 +8,7 @@ namespace AbstractFactory.Sample.Factory
 {
     /// <summary>
     /// 抽象的な工場
+    /// 役割：AbstractFactory(抽象的な工場)
     /// </summary>
     abstract class Factory
     {
