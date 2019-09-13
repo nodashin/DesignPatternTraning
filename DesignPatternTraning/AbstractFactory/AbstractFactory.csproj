@@ -56,6 +56,7 @@
     <Compile Include="Sample\ListFactory\ListTray.cs" />
     <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\TableFactory\TableFactory.cs" />
+    <Compile Include="Sample\TableFactory\TableLink.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
