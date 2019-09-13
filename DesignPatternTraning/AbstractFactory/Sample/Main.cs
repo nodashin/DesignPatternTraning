@@ -11,8 +11,26 @@ namespace AbstractFactory.Sample
     {
         public static void Execute()
         {
-            Console.Write("工場のクラス名を入力してください。：");
-            var factoryName = Console.ReadLine();
+            Console.Write("工場のクラス名を入力してください。(1:ListFactory 2：TableFactory)：");
+            var factoryType = Console.ReadLine();
+            var factoryName = "AbstractFactory.Sample.";
+            var fileName = "";
+            switch (factoryType)
+            {
+                case "1":
+                    factoryName += "ListFactory.ListFactory";
+                    fileName = "LinkPage";
+                    break;
+                case "2":
+                    factoryName += "TableFactory.TableFactory";
+                    fileName = "TablePage";
+                    break;
+                default:
+                    Console.WriteLine("1:ListFactory 2：TableFactory 以外のキーが押されました。");
+                    Console.ReadKey();
+                    return;
+            }
+
 
             Factory.Factory factory = Factory.Factory.GetFactory(factoryName);
 
@@ -37,7 +55,7 @@ namespace AbstractFactory.Sample
             traySearch.Add(excite);
             traySearch.Add(google);
 
-            Page page = factory.CreatePage("LinkPage", "結城　浩");
+            Page page = factory.CreatePage(fileName, "結城　浩");
             page.Add(trayNews);
             page.Add(traySearch);
             page.Output();
