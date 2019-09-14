@@ -26,16 +26,25 @@ namespace Bridge.Sample
             this.impl = impl;
         }
 
+        /// <summary>
+        /// Open
+        /// </summary>
         public void Open()
         {
             impl.RawOpen();
         }
 
+        /// <summary>
+        /// Print
+        /// </summary>
         public void Print()
         {
             impl.RawPrint();
         }
 
+        /// <summary>
+        /// Close
+        /// </summary>
         public void Close()
         {
             impl.RawClose();
