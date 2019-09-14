@@ -52,6 +52,8 @@
     <Compile Include="Sample\StringDisplayImpl.cs" />
     <Compile Include="Traning1\Main.cs" />
     <Compile Include="Traning1\RandomDisplay.cs" />
+    <Compile Include="Traning2\Main.cs" />
+    <Compile Include="Traning2\TextDisplayImpl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

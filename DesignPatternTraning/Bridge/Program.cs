@@ -23,6 +23,13 @@ namespace Bridge
             Traning1.Main.Execute();
             writer.WriteEnd();
 
+            ConsoleWriter.WriteDelimiter();
+
+            writer = new ConsoleWriter("Traning2");
+            writer.WriteStart();
+            Traning2.Main.Execute();
+            writer.WriteEnd();
+
             Console.ReadKey();
         }
     }
