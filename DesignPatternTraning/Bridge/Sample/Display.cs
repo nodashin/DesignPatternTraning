@@ -9,11 +9,13 @@ namespace Bridge.Sample
     /// <summary>
     /// 抽象的な「何かを表示するもの」。
     /// 「機能のクラス階層」の最上位にあるクラス。
+    /// 役割：Abstraction(抽象化)
     /// </summary>
     class Display
     {
         /// <summary>
         /// Displayクラスの「実装」を表すインスタンス
+        /// 橋渡し役。
         /// </summary>
         private DisplayImpl impl;
 

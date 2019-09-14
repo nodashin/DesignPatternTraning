@@ -4,6 +4,7 @@ namespace Bridge.Sample
 {
     /// <summary>
     /// 「実装のクラス階層」の最上位に位置する。
+    /// 役割：Implementor(実装者)
     /// </summary>
     abstract class DisplayImpl
     {

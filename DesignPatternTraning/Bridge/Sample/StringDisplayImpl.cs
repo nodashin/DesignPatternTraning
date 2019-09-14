@@ -8,6 +8,7 @@ namespace Bridge.Sample
 {
     /// <summary>
     /// 文字列を表示するクラス
+    /// 役割：ConcreteImplementor(具体的な実装者)
     /// </summary>
     class StringDisplayImpl : DisplayImpl
     {

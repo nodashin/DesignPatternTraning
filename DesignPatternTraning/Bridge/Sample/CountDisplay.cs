@@ -8,6 +8,7 @@ namespace Bridge.Sample
 {
     /// <summary>
     /// Displayクラスに機能を追加したもの。
+    /// 役割：RefinedAbstraction(改善した抽象化)
     /// </summary>
     class CountDisplay : Display
     {
