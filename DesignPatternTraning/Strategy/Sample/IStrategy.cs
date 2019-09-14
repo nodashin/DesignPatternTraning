@@ -8,6 +8,7 @@ namespace Strategy.Sample
 {
     /// <summary>
     /// じゃんけんの「戦略」のための抽象メソッド
+    /// 役割：Strategy(戦略)
     /// </summary>
     interface IStrategy
     {

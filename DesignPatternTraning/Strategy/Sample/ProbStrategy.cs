@@ -8,6 +8,7 @@ namespace Strategy.Sample
 {
     /// <summary>
     /// 過去の勝ち負けの履歴を使って、それぞれ手を出す確率を変える戦略を表すクラス。
+    /// 役割：ConcreteStrategy(具体的戦略)
     /// </summary>
     class ProbStrategy : IStrategy
     {

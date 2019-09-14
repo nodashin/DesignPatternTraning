@@ -8,6 +8,7 @@ namespace Strategy.Sample
 {
     /// <summary>
     /// じゃんけんを行う人
+    /// 役割：Context(文脈)
     /// </summary>
     class Player
     {
