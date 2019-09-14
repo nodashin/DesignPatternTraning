@@ -18,6 +18,11 @@ namespace Bridge
 
             ConsoleWriter.WriteDelimiter();
 
+            writer = new ConsoleWriter("Traning1");
+            writer.WriteStart();
+            Traning1.Main.Execute();
+            writer.WriteEnd();
+
             Console.ReadKey();
         }
     }

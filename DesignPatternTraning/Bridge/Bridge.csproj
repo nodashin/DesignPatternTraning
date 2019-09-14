@@ -50,6 +50,8 @@
     <Compile Include="Sample\DisplayImpl.cs" />
     <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\StringDisplayImpl.cs" />
+    <Compile Include="Traning1\Main.cs" />
+    <Compile Include="Traning1\RandomDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
