@@ -49,5 +49,15 @@ namespace Bridge.Sample
         {
             impl.RawClose();
         }
+
+        /// <summary>
+        /// 表示する。
+        /// </summary>
+        public void Dislay()
+        {
+            Open();
+            Print();
+            Close();
+        }
     }
 }
