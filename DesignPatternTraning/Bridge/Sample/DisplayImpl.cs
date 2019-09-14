@@ -2,21 +2,27 @@
 
 namespace Bridge.Sample
 {
-    internal class DisplayImpl
+    /// <summary>
+    /// 「実装のクラス階層」の最上位に位置する。
+    /// </summary>
+    abstract class DisplayImpl
     {
-        internal void RawOpen()
-        {
-            throw new NotImplementedException();
-        }
+        /// <summary>
+        /// Display.Openに対応するメソッド。
+        /// 前処理。
+        /// </summary>
+        public abstract void RawOpen();
 
-        internal void RawPrint()
-        {
-            throw new NotImplementedException();
-        }
+        /// <summary>
+        /// Display.Printに対応するメソッド。
+        /// 表示。
+        /// </summary>
+        public abstract void RawPrint();
 
-        internal void RawClose()
-        {
-            throw new NotImplementedException();
-        }
+        /// <summary>
+        /// Display.Closeに対応するメソッド。
+        /// 後処理。
+        /// </summary>
+        public abstract void RawClose();
     }
 }
