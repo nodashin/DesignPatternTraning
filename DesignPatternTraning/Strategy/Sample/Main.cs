@@ -16,7 +16,7 @@ namespace Strategy.Sample
             Console.Write("シード値②の設定：");
             var seed2 = int.Parse(Console.ReadLine());
             Player player1 = new Player("Taro", new WinningStrategy(seed1));
-            Player player2 = new Player("Hana", new ProbStrategy(seed1));
+            Player player2 = new Player("Hana", new ProbStrategy(seed2));
             for (int i = 0; i < 1000; i++)
             {
                 Hand nextHand1 = player1.NextHand();
