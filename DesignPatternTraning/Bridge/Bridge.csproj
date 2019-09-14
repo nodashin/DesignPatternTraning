@@ -48,6 +48,7 @@
     <Compile Include="Sample\CountDisplay.cs" />
     <Compile Include="Sample\Display.cs" />
     <Compile Include="Sample\DisplayImpl.cs" />
+    <Compile Include="Sample\StringDisplayImpl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
