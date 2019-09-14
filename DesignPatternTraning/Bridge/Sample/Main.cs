@@ -22,7 +22,6 @@ namespace Bridge.Sample
             Console.WriteLine();
             Console.WriteLine("d3.MultiDisplay(5)が表示");
             d3.MultiDisplay(5);
-            Console.WriteLine();
         }
     }
 }
