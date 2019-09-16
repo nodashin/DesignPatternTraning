@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Composite.Sample
 {
+    /// <summary>
+    /// 役割：Client(依頼者)
+    /// </summary>
     class Main
     {
         public static void Execute()

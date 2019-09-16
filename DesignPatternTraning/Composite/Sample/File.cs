@@ -8,6 +8,7 @@ namespace Composite.Sample
 {
     /// <summary>
     /// ファイルを表すクラス。
+    /// 役割：Leaf(葉)
     /// </summary>
     class File : Entry
     {

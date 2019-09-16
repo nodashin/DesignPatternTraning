@@ -8,6 +8,7 @@ namespace Composite.Sample
 {
     /// <summary>
     /// FileとDirectoryを同一視する抽象クラス。
+    /// 役割；Component
     /// </summary>
     abstract class Entry
     {

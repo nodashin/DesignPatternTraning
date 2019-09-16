@@ -8,6 +8,7 @@ namespace Composite.Sample
 {
     /// <summary>
     /// ディレクトリを表すクラス。
+    /// 役割：Composite(複合体)
     /// </summary>
     class Directory : Entry
     {
