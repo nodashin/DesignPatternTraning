@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Composite.Sample
 {
     /// <summary>
-    /// ファイルを表すクラス。
+    /// ディレクトリを表すクラス。
     /// </summary>
-    class File : Entry
+    class Directory : Entry
     {
         /// <summary>
         /// 名前
@@ -17,19 +17,17 @@ namespace Composite.Sample
         private string name;
 
         /// <summary>
-        /// サイズ
+        /// ディレクトリエントリの集合
         /// </summary>
-        private int size;
+        private List<Entry> directory = new List<Entry>();
 
         /// <summary>
         /// コンストラクタ
         /// </summary>
         /// <param name="name">名前</param>
-        /// <param name="size">サイズ</param>
-        public File(string name, int size)
+        public Directory(string name)
         {
             this.name = name;
-            this.size = size;
         }
 
         /// <summary>
@@ -47,7 +45,23 @@ namespace Composite.Sample
         /// <returns>サイズ</returns>
         public override int GetSize()
         {
+            int size = 0;
+            foreach (var entry in directory)
+            {
+                size += entry.GetSize();
+            }
             return size;
+        }
+
+        /// <summary>
+        /// ディレクトリの中にファイルやディレクトリを入れるメソッド。
+        /// </summary>
+        /// <param name="entry">中に入れるファイルやディレクトリ</param>
+        /// <returns>入れたファイルやディレクトリ</returns>
+        public Entry Add(Entry entry)
+        {
+            directory.Add(entry);
+            return entry;
         }
 
         /// <summary>
@@ -57,6 +71,10 @@ namespace Composite.Sample
         public override void PrintList(string prefix)
         {
             Console.WriteLine(prefix + "/" + this);
+            foreach (var entry in directory)
+            {
+                entry.PrintList(prefix + "/" + name);
+            }
         }
     }
 }

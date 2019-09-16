@@ -45,7 +45,7 @@ namespace Composite.Sample
         /// prefixを前につけて一覧を表示する。
         /// </summary>
         /// <param name="prefix">プレフィックス</param>
-        protected abstract void PrintList(string prefix);
+        public abstract void PrintList(string prefix);
 
         /// <summary>
         /// ToString
