@@ -47,6 +47,7 @@
     <Compile Include="Sample\Directory.cs" />
     <Compile Include="Sample\Entry.cs" />
     <Compile Include="Sample\File.cs" />
+    <Compile Include="Sample\FileTreatmebtException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
