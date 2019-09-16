@@ -48,6 +48,7 @@
     <Compile Include="Sample\Entry.cs" />
     <Compile Include="Sample\File.cs" />
     <Compile Include="Sample\FileTreatmebtException.cs" />
+    <Compile Include="Sample\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
