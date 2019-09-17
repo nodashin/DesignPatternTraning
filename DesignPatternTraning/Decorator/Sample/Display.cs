@@ -8,6 +8,7 @@ namespace Decorator.Sample
 {
     /// <summary>
     /// 文字列表示用の抽象クラス。
+    /// 役割：Component
     /// </summary>
     abstract class Display
     {

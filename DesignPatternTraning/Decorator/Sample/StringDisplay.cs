@@ -8,6 +8,7 @@ namespace Decorator.Sample
 {
     /// <summary>
     /// 1行だけからなる文字列表示用のクラス
+    /// 役割：ConcreteComponent
     /// </summary>
     class StringDisplay : Display
     {

@@ -8,6 +8,7 @@ namespace Decorator.Sample
 {
     /// <summary>
     /// 「飾り枠」
+    /// 役割：Decorator(装飾者)
     /// </summary>
     abstract class Border : Display
     {

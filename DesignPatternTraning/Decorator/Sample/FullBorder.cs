@@ -8,6 +8,7 @@ namespace Decorator.Sample
 {
     /// <summary>
     /// 上下左右に飾り枠をつけるクラス。
+    /// 役割：ConreteDecorator(具体的な装飾者)
     /// </summary>
     class FullBorder : Border
     {

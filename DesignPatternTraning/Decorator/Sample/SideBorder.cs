@@ -8,6 +8,7 @@ namespace Decorator.Sample
 {
     /// <summary>
     /// 左右にのみ飾り枠をつけるクラス。
+    /// 役割：ConreteDecorator(具体的な装飾者)
     /// </summary>
     class SideBorder : Border
     {
