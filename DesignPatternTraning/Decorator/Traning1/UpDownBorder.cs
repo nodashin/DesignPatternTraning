@@ -15,7 +15,7 @@ namespace Decorator.Traning1
         /// <summary>
         /// 飾り付け文字
         /// </summary>
-        public char DecorateChar {get;}
+        public char DecorateChar { get; }
 
         /// <summary>
         /// コンストラクタ
@@ -51,15 +51,13 @@ namespace Decorator.Traning1
         /// </summary>
         public override string GetRowText(int row)
         {
-            switch (row)
+            if (row == 0 || row == this.display.GetRows() + 1)
             {
-                case 0:
-                case 2:
-                    return this.MakeDecorateLine();
-                case 1:
-                    return this.GetRowText(row);
-                default:
-                    throw new IndexOutOfRangeException($"指定したrowが不正です。指定値：{row}");
+                return this.MakeDecorateLine();
+            }
+            else
+            {
+                return this.display.GetRowText(row-1);
             }
         }
 
