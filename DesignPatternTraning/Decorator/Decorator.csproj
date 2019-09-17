@@ -47,6 +47,7 @@
     <Compile Include="Sample\Border.cs" />
     <Compile Include="Sample\Display.cs" />
     <Compile Include="Sample\FullBorder.cs" />
+    <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\SideBorder.cs" />
     <Compile Include="Sample\StringDisplay.cs" />
   </ItemGroup>
