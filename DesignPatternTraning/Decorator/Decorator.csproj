@@ -50,6 +50,8 @@
     <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\SideBorder.cs" />
     <Compile Include="Sample\StringDisplay.cs" />
+    <Compile Include="Traning1\Main.cs" />
+    <Compile Include="Traning1\UpDownBorder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -60,8 +62,6 @@
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Traning1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
