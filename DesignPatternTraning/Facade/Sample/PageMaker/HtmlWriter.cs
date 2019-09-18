@@ -37,7 +37,7 @@ namespace Facade.Sample.PageMaker
             writer.Write("<title>" + title + "</title>");
             writer.Write("</head>");
             writer.Write("<body>\n");
-            writer.Write("<h1>" + title + "<h1>\n");
+            writer.Write("<h1>" + title + "</h1>\n");
         }
 
         /// <summary>
