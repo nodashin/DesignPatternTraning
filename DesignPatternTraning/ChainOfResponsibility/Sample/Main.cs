@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ChainOfResponsibility.Sample
 {
+    /// <summary>
+    /// 役割：Client(要求者)
+    /// </summary>
     class Main
     {
         public static void Execute()

@@ -9,6 +9,7 @@ namespace ChainOfResponsibility.Sample
     /// <summary>
     /// トラブルを解決する具象クラス。
     /// 常に「処理しない」。
+    /// 役割：Concretehandler(具体的処理者)
     /// </summary>
     class NoSupport : Support
     {

@@ -8,6 +8,7 @@ namespace ChainOfResponsibility.Sample
 {
     /// <summary>
     /// トラブルを解決する抽象クラス
+    /// 役割：Handler(処理者)
     /// </summary>
     abstract class Support
     {
