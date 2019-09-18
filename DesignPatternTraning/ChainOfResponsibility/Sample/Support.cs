@@ -53,7 +53,7 @@ namespace ChainOfResponsibility.Sample
             }
             else if(next != null)
             {
-                next.Support(trouble);
+                next.SupportTrouble(trouble);
             }
             else
             {
