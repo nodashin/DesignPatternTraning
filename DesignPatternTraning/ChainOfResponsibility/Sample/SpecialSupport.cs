@@ -8,23 +8,23 @@ namespace ChainOfResponsibility.Sample
 {
     /// <summary>
     /// トラブルを解決する具象クラス。
-    /// 指定した番号未満のトラブルを解決。
+    /// 特定番号のトラブルを解決。
     /// </summary>
-    class LimitSupport : Support
+    class SpecialSupport : Support
     {
         /// <summary>
-        /// この番号未満なら解決できる。
+        /// この番号だけ解決できる
         /// </summary>
-        private int limit;
+        private int number;
 
         /// <summary>
         /// コンストラクタ
         /// </summary>
         /// <param name="name">トラブル解決者の名前</param>
-        /// <param name="limit">解決できる番号の上限(より大きい)</param>
-        public LimitSupport(string name, int limit) : base(name)
+        /// <param name="number">解決できる番号</param>
+        public SpecialSupport(string name, int number) : base(name)
         {
-            this.limit = limit;
+            this.number = number;
         }
 
         /// <summary>
@@ -34,7 +34,7 @@ namespace ChainOfResponsibility.Sample
         /// <returns>tureのときは要求が処理されたことを表し、falseのときには要求はまだ処理されていない(すなわち、次にたらい回しする)ことを表す</returns>
         protected override bool Resolve(Trouble trouble)
         {
-            if(trouble.GetNumber() < limit)
+            if(trouble.GetNumber() == number)
             {
                 return true;
             }

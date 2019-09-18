@@ -48,6 +48,7 @@
     <Compile Include="Sample\LimitSupport.cs" />
     <Compile Include="Sample\NoSupport.cs" />
     <Compile Include="Sample\OddSupport.cs" />
+    <Compile Include="Sample\SpecialSupport.cs" />
     <Compile Include="Sample\Support.cs" />
     <Compile Include="Sample\Trouble.cs" />
   </ItemGroup>
