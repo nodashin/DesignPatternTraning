@@ -38,7 +38,10 @@ namespace Visitor.Sample
         /// Iteratorの生成。
         /// </summary>
         /// <returns>Iterator</returns>
-        public virtual Iterator Iterator()
+        /// <remarks>
+        /// Iteratorを作るのが面倒なのでコレクションを返す。
+        /// </remarks>
+        public virtual List<Entry> Iterator()
         {
             throw new FileTreatmentException();
         }
