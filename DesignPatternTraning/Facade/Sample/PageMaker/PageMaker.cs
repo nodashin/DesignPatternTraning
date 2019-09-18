@@ -8,6 +8,7 @@ namespace Facade.Sample.PageMaker
 {
     /// <summary>
     /// メールアドレスからユーザーのWebページを作成するクラス
+    /// 役割：Facade(正面)
     /// </summary>
     class PageMaker
     {

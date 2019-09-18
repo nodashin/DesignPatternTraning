@@ -9,6 +9,7 @@ namespace Facade.Sample.PageMaker
 {
     /// <summary>
     /// メールアドレスからユーザー名を得るクラス。
+    /// 役割：システムを構成しているその他おおぜい
     /// </summary>
     class Database
     {

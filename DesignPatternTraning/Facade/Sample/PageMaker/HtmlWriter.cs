@@ -9,6 +9,7 @@ namespace Facade.Sample.PageMaker
 {
     /// <summary>
     /// HTMLファイルを作成するクラス
+    /// 役割：システムを構成しているその他おおぜい
     /// </summary>
     class HtmlWriter
     {
