@@ -46,14 +46,12 @@ namespace Facade.Sample.PageMaker
                         prop.Add(contents[0], contents[1]);
                     }
                 }
-
-                return prop;
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                throw;
             }
+            return prop;
         }
     }
 }
