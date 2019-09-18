@@ -22,19 +22,19 @@ namespace Facade.Sample.PageMaker
             
         }
 
-        public static Dictionary<string, string> GetProperties(string dbName)
-        {
-            string fileName = dbName + ".txt";
-            Dictionary<string, string> prop = new Dictionary<string, string>();
-            try
-            {
+        //public static Dictionary<string, string> GetProperties(string dbName)
+        //{
+        //    string fileName = dbName + ".txt";
+        //    Dictionary<string, string> prop = new Dictionary<string, string>();
+        //    try
+        //    {
 
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                throw;
-            }
-        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.ToString());
+        //        throw;
+        //    }
+        //}
     }
 }
