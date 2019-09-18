@@ -48,6 +48,7 @@
     <Compile Include="Sample\Directory.cs" />
     <Compile Include="Sample\Entry.cs" />
     <Compile Include="Sample\File.cs" />
+    <Compile Include="Sample\FileTreatmentException.cs" />
     <Compile Include="Sample\IElement.cs" />
     <Compile Include="Sample\Visitor.cs" />
   </ItemGroup>
