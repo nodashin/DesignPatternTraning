@@ -34,7 +34,14 @@ namespace ChainOfResponsibility.Sample
         /// <returns>tureのときは要求が処理されたことを表し、falseのときには要求はまだ処理されていない(すなわち、次にたらい回しする)ことを表す</returns>
         protected override bool Resolve(Trouble trouble)
         {
-            throw new NotImplementedException();
+            if(trouble.GetNumber() < limit)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
