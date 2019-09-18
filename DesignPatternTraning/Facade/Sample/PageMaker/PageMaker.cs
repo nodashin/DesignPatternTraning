@@ -19,6 +19,11 @@ namespace Facade.Sample.PageMaker
         /// </remarks>
         private PageMaker() { }
 
+        /// <summary>
+        /// Welcomeページを作成する。
+        /// </summary>
+        /// <param name="mailAddr">メールアドレス</param>
+        /// <param name="fileName">HTMLファイル名</param>
         public static void MakeWelcomePage(string mailAddr, string fileName)
         {
             Dictionary<string, string> mailProp = Database.GetProperties("maildata");
