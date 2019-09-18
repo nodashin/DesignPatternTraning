@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Visitor.Sample
 {
     /// <summary>
-    /// ファイルを表すクラス
+    /// ファイルを表すクラス。
+    /// 役割：ConcreteElement(具体的な要素)
     /// </summary>
     public class File : Entry
     {

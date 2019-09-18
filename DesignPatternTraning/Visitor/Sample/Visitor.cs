@@ -8,6 +8,7 @@ namespace Visitor.Sample
 {
     /// <summary>
     /// ファイルやディレクトリを訪れる訪問者を表す抽象クラス。
+    /// 役割：Visitor(訪問者)
     /// </summary>
     public abstract class Visitor
     {

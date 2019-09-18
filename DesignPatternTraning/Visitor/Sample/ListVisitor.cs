@@ -8,6 +8,7 @@ namespace Visitor.Sample
 {
     /// <summary>
     /// Visitorクラスのサブクラスで、ファイルやディレクトリの一覧を表示するクラス
+    /// 役割：ConcreteVisitor(具体的な訪問者)
     /// </summary>
     public class ListVisitor : Visitor
     {

@@ -8,6 +8,7 @@ namespace Visitor.Sample
 {
     /// <summary>
     /// ディレクトリを表すクラス。
+    /// 役割：ConcreteElement(具体的な要素)、ObjectStructure(オブジェクトの構造)
     /// </summary>
     public class Directory : Entry
     {
