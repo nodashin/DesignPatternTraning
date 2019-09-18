@@ -30,6 +30,9 @@ namespace Visitor.Sample
                 Directory yuki = new Directory("yuki");
                 Directory hanako = new Directory("hanako");
                 Directory tomura = new Directory("tomura");
+                usrDir.Add(yuki);
+                usrDir.Add(hanako);
+                usrDir.Add(tomura);
                 yuki.Add(new File("diary.html", 100));
                 yuki.Add(new File("Compsite.java", 200));
                 hanako.Add(new File("memo.txt", 300));
