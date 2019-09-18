@@ -62,6 +62,15 @@ namespace ChainOfResponsibility.Sample
         }
 
         /// <summary>
+        /// 文字列表現。
+        /// </summary>
+        /// <returns>文字列</returns>
+        public override string ToString()
+        {
+            return "[" + name + "]";
+        }
+
+        /// <summary>
         /// 解決用メソッド
         /// </summary>
         /// <param name="trouble">解決すべきトラブル</param>
