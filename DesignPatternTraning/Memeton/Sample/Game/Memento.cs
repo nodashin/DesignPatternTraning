@@ -53,7 +53,7 @@ namespace Memeton.Sample.Game
         /// フルーツを取得する。(wide interface)
         /// </summary>
         /// <returns>フルーツ</returns>
-        List<string> GetFruit()
+        internal List<string> GetFruit()
         {
             var clone = new List<string>();
             fruits.ForEach(s => clone.Add(s));
