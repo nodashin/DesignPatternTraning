@@ -55,7 +55,7 @@ namespace Mediator.Sample
         protected override void OnCheckedChanged(EventArgs e)
         {
             base.OnCheckedChanged(e);
-            mediator.ColleaguesChanged();
+            mediator?.ColleaguesChanged();
         }
     }
 }

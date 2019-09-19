@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.labelUsername = new System.Windows.Forms.Label();
+            this.labelPassword = new System.Windows.Forms.Label();
+            this.colleagueButtonCancel = new Mediator.Sample.ColleagueButton();
+            this.colleagueButtonOK = new Mediator.Sample.ColleagueButton();
+            this.colleagueTextBoxPassword = new Mediator.Sample.ColleagueTextBox();
+            this.colleagueTextBoxUsername = new Mediator.Sample.ColleagueTextBox();
             this.colleagueRadioButtonLogin = new Mediator.Sample.ColleagueRadioButton();
             this.colleagueRadioButtonGuest = new Mediator.Sample.ColleagueRadioButton();
-            this.colleagueTextBoxUsername = new Mediator.Sample.ColleagueTextBox();
-            this.colleagueTextBoxPassword = new Mediator.Sample.ColleagueTextBox();
-            this.labelPassword = new System.Windows.Forms.Label();
-            this.colleagueButtonOK = new Mediator.Sample.ColleagueButton();
-            this.colleagueButtonCancel = new Mediator.Sample.ColleagueButton();
             this.SuspendLayout();
             // 
             // labelUsername
@@ -47,43 +47,6 @@
             this.labelUsername.TabIndex = 2;
             this.labelUsername.Text = "Username";
             // 
-            // colleagueRadioButtonLogin
-            // 
-            this.colleagueRadioButtonLogin.AutoSize = true;
-            this.colleagueRadioButtonLogin.Location = new System.Drawing.Point(103, 12);
-            this.colleagueRadioButtonLogin.Name = "colleagueRadioButtonLogin";
-            this.colleagueRadioButtonLogin.Size = new System.Drawing.Size(57, 22);
-            this.colleagueRadioButtonLogin.TabIndex = 1;
-            this.colleagueRadioButtonLogin.TabStop = true;
-            this.colleagueRadioButtonLogin.Text = "Login";
-            this.colleagueRadioButtonLogin.UseVisualStyleBackColor = true;
-            // 
-            // colleagueRadioButtonGuest
-            // 
-            this.colleagueRadioButtonGuest.AutoSize = true;
-            this.colleagueRadioButtonGuest.Location = new System.Drawing.Point(29, 12);
-            this.colleagueRadioButtonGuest.Name = "colleagueRadioButtonGuest";
-            this.colleagueRadioButtonGuest.Size = new System.Drawing.Size(60, 22);
-            this.colleagueRadioButtonGuest.TabIndex = 0;
-            this.colleagueRadioButtonGuest.TabStop = true;
-            this.colleagueRadioButtonGuest.Text = "Gesut";
-            this.colleagueRadioButtonGuest.UseVisualStyleBackColor = true;
-            // 
-            // colleagueTextBoxUsername
-            // 
-            this.colleagueTextBoxUsername.Location = new System.Drawing.Point(103, 40);
-            this.colleagueTextBoxUsername.Name = "colleagueTextBoxUsername";
-            this.colleagueTextBoxUsername.Size = new System.Drawing.Size(100, 25);
-            this.colleagueTextBoxUsername.TabIndex = 3;
-            // 
-            // colleagueTextBoxPassword
-            // 
-            this.colleagueTextBoxPassword.Location = new System.Drawing.Point(103, 71);
-            this.colleagueTextBoxPassword.Name = "colleagueTextBoxPassword";
-            this.colleagueTextBoxPassword.PasswordChar = '*';
-            this.colleagueTextBoxPassword.Size = new System.Drawing.Size(100, 25);
-            this.colleagueTextBoxPassword.TabIndex = 4;
-            // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
@@ -92,6 +55,15 @@
             this.labelPassword.Size = new System.Drawing.Size(63, 18);
             this.labelPassword.TabIndex = 5;
             this.labelPassword.Text = "Password";
+            // 
+            // colleagueButtonCancel
+            // 
+            this.colleagueButtonCancel.Location = new System.Drawing.Point(128, 102);
+            this.colleagueButtonCancel.Name = "colleagueButtonCancel";
+            this.colleagueButtonCancel.Size = new System.Drawing.Size(75, 23);
+            this.colleagueButtonCancel.TabIndex = 7;
+            this.colleagueButtonCancel.Text = "Cancel";
+            this.colleagueButtonCancel.UseVisualStyleBackColor = true;
             // 
             // colleagueButtonOK
             // 
@@ -102,14 +74,42 @@
             this.colleagueButtonOK.Text = "OK";
             this.colleagueButtonOK.UseVisualStyleBackColor = true;
             // 
-            // colleagueButtonCancel
+            // colleagueTextBoxPassword
             // 
-            this.colleagueButtonCancel.Location = new System.Drawing.Point(128, 102);
-            this.colleagueButtonCancel.Name = "colleagueButtonCancel";
-            this.colleagueButtonCancel.Size = new System.Drawing.Size(75, 23);
-            this.colleagueButtonCancel.TabIndex = 7;
-            this.colleagueButtonCancel.Text = "Cancel";
-            this.colleagueButtonCancel.UseVisualStyleBackColor = true;
+            this.colleagueTextBoxPassword.Location = new System.Drawing.Point(103, 71);
+            this.colleagueTextBoxPassword.Name = "colleagueTextBoxPassword";
+            this.colleagueTextBoxPassword.PasswordChar = '*';
+            this.colleagueTextBoxPassword.Size = new System.Drawing.Size(100, 25);
+            this.colleagueTextBoxPassword.TabIndex = 4;
+            // 
+            // colleagueTextBoxUsername
+            // 
+            this.colleagueTextBoxUsername.Location = new System.Drawing.Point(103, 40);
+            this.colleagueTextBoxUsername.Name = "colleagueTextBoxUsername";
+            this.colleagueTextBoxUsername.Size = new System.Drawing.Size(100, 25);
+            this.colleagueTextBoxUsername.TabIndex = 3;
+            // 
+            // colleagueRadioButtonLogin
+            // 
+            this.colleagueRadioButtonLogin.AutoSize = true;
+            this.colleagueRadioButtonLogin.Location = new System.Drawing.Point(103, 12);
+            this.colleagueRadioButtonLogin.Name = "colleagueRadioButtonLogin";
+            this.colleagueRadioButtonLogin.Size = new System.Drawing.Size(57, 22);
+            this.colleagueRadioButtonLogin.TabIndex = 1;
+            this.colleagueRadioButtonLogin.Text = "Login";
+            this.colleagueRadioButtonLogin.UseVisualStyleBackColor = true;
+            // 
+            // colleagueRadioButtonGuest
+            // 
+            this.colleagueRadioButtonGuest.AutoSize = true;
+            this.colleagueRadioButtonGuest.Checked = true;
+            this.colleagueRadioButtonGuest.Location = new System.Drawing.Point(29, 12);
+            this.colleagueRadioButtonGuest.Name = "colleagueRadioButtonGuest";
+            this.colleagueRadioButtonGuest.Size = new System.Drawing.Size(60, 22);
+            this.colleagueRadioButtonGuest.TabIndex = 0;
+            this.colleagueRadioButtonGuest.TabStop = true;
+            this.colleagueRadioButtonGuest.Text = "Gesut";
+            this.colleagueRadioButtonGuest.UseVisualStyleBackColor = true;
             // 
             // LoginForm
             // 
@@ -129,6 +129,7 @@
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mediator Sample";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
