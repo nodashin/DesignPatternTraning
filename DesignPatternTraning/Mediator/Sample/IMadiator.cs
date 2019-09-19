@@ -8,6 +8,7 @@ namespace Mediator.Sample
 {
     /// <summary>
     /// 「相談役」のインタフェース(API)を定めるインタフェース。
+    /// 具体的な相談役は、このインタフェースを実装する。
     /// </summary>
     public interface IMadiator
     {
