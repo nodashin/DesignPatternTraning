@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{93230430-8477-44D8-9B3A-334FE21A7904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{6DCB8901-995F-4670-9CA2-710BF12B3DDB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{F8B1959A-2691-42A5-A10B-BF773D870E49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,10 +109,10 @@ Global
 		{93230430-8477-44D8-9B3A-334FE21A7904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93230430-8477-44D8-9B3A-334FE21A7904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93230430-8477-44D8-9B3A-334FE21A7904}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DCB8901-995F-4670-9CA2-710BF12B3DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DCB8901-995F-4670-9CA2-710BF12B3DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DCB8901-995F-4670-9CA2-710BF12B3DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DCB8901-995F-4670-9CA2-710BF12B3DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B1959A-2691-42A5-A10B-BF773D870E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B1959A-2691-42A5-A10B-BF773D870E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B1959A-2691-42A5-A10B-BF773D870E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B1959A-2691-42A5-A10B-BF773D870E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
