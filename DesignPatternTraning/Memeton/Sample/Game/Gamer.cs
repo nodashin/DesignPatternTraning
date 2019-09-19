@@ -8,6 +8,7 @@ namespace Memeton.Sample.Game
 {
     /// <summary>
     /// ゲームを行う主人公のクラス。Memetonのインスタンスを作る。
+    /// 役割：Originator(作成者)
     /// </summary>
     public class Gamer
     {

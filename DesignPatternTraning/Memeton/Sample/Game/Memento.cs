@@ -8,6 +8,7 @@ namespace Memeton.Sample.Game
 {
     /// <summary>
     /// Gamerの状態を表すクラス
+    /// 役割：Memento(記念品)
     /// </summary>
     public class Memento
     {
@@ -22,7 +23,7 @@ namespace Memeton.Sample.Game
         internal List<string> fruits;
 
         /// <summary>
-        /// コンストラクタ(wide interface)
+        /// コンストラクタ(wide interface：広いインタフェース)
         /// </summary>
         /// <param name="money">所持金</param>
         internal Memento(int money)
@@ -32,7 +33,7 @@ namespace Memeton.Sample.Game
         }
 
         /// <summary>
-        /// 所持金を得る。(narrow interface)
+        /// 所持金を得る。(narrow interface：狭いインタフェース)
         /// </summary>
         /// <returns>所持金</returns>
         public int GetMoney()
@@ -41,7 +42,7 @@ namespace Memeton.Sample.Game
         }
 
         /// <summary>
-        /// フルーツを追加する。(wide interface)
+        /// フルーツを追加する。(wide interface：広いインタフェース)
         /// </summary>
         /// <param name="fruit">追加するフルーツ</param>
         internal void AddFruit(string fruit)
@@ -50,7 +51,7 @@ namespace Memeton.Sample.Game
         }
 
         /// <summary>
-        /// フルーツを取得する。(wide interface)
+        /// フルーツを取得する。(wide interface：広いインタフェース)
         /// </summary>
         /// <returns>フルーツ</returns>
         internal List<string> GetFruit()

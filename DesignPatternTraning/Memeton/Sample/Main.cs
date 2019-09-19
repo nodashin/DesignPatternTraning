@@ -8,6 +8,9 @@ using Memeton.Sample.Game;
 
 namespace Memeton.Sample
 {
+    /// <summary>
+    /// 役割：Caretaker(世話をする人)
+    /// </summary>
     class Main
     {
         public static void Execute()
