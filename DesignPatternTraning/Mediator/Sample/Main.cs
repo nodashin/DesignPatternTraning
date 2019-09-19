@@ -10,7 +10,7 @@ namespace Mediator.Sample
     {
         public static void Execute()
         {
-            new LoginForm("Mediator Sample").Show();
+            new LoginForm("Mediator Sample").ShowDialog();
         }
     }
 }
