@@ -9,6 +9,7 @@ namespace Observer.Sample
 {
     /// <summary>
     /// 簡易グラフで数を表現するクラス。
+    /// 役割：ConcreteObserver(具体的な観測者)
     /// </summary>
     public class GraphObserver : IObserver
     {

@@ -8,6 +8,7 @@ namespace Observer.Sample
 {
     /// <summary>
     /// 観測者を表すインタフェース
+    /// 役割：Observer
     /// </summary>
     public interface IObserver
     {

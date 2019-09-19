@@ -8,6 +8,7 @@ namespace Observer.Sample
 {
     /// <summary>
     /// ランダムに数を生成するクラス。
+    /// 役割：ConcreteSubject(具体的な被験者)
     /// </summary>
     public class RandomNumberGenerator : NumberGenerator
     {

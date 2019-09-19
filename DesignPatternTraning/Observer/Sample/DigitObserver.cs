@@ -9,6 +9,7 @@ namespace Observer.Sample
 {
     /// <summary>
     /// 数字で数を表現するクラス
+    /// 役割：ConcreteObserver(具体的な観測者)
     /// </summary>
     public class DigitObserver : IObserver
     {

@@ -4,6 +4,7 @@ namespace Observer.Sample
 {
     /// <summary>
     /// 数を生成するオブジェクトを表す抽象クラス。
+    /// 役割：Subject(被験者)
     /// </summary>
     public abstract class NumberGenerator
     {
