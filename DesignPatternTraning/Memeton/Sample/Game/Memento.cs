@@ -22,7 +22,7 @@ namespace Memeton.Sample.Game
         internal List<string> fruits;
 
         /// <summary>
-        /// コンストラクタ
+        /// コンストラクタ(wide interface)
         /// </summary>
         /// <param name="money">所持金</param>
         internal Memento(int money)
@@ -41,7 +41,7 @@ namespace Memeton.Sample.Game
         }
 
         /// <summary>
-        /// フルーツを追加する。
+        /// フルーツを追加する。(wide interface)
         /// </summary>
         /// <param name="fruit">追加するフルーツ</param>
         internal void AddFruit(string fruit)
@@ -50,7 +50,7 @@ namespace Memeton.Sample.Game
         }
 
         /// <summary>
-        /// フルーツを取得する。
+        /// フルーツを取得する。(wide interface)
         /// </summary>
         /// <returns>フルーツ</returns>
         List<string> GetFruit()
