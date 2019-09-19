@@ -11,6 +11,10 @@ namespace Observer.Sample
     /// </summary>
     public interface IObserver
     {
+        /// <summary>
+        /// NumberGeneratorが「私の内容が更新されました。表示の方も更新してください」とObserverに伝えるためのメソッド。
+        /// </summary>
+        /// <param name="generator"></param>
         void Update(NumberGenerator generator);
     }
 }
