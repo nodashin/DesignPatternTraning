@@ -11,9 +11,9 @@ using System.Windows.Forms;
 namespace Mediator.Sample
 {
     /// <summary>
-    /// IColleagueのインタフェースを実装。ボタンを表すクラス。
+    /// IColleagueのインタフェースを実装。テキストの入力を行うクラス。
     /// </summary>
-    public partial class ColleagueButton : Button, IColleague
+    public partial class ColleagueTextBox : TextBox, IColleague
     {
         /// <summary>
         /// SetMadiatorで渡されてくるMadiatorオブジェクト
@@ -23,7 +23,7 @@ namespace Mediator.Sample
         /// <summary>
         /// コンストラクタ
         /// </summary>
-        public ColleagueButton()
+        public ColleagueTextBox()
         {
             InitializeComponent();
         }
@@ -45,6 +45,19 @@ namespace Mediator.Sample
         public void SetColleagueEnabled(bool enabled)
         {
             this.Enabled = enabled;
+        }
+
+        /// <summary>
+        /// OnTextChanged
+        /// </summary>
+        /// <param name="e">EventArgs</param>
+        /// <remarks>
+        /// 文字列が変化したらMediatorに通知する。
+        /// </remarks>
+        protected override void OnTextChanged(EventArgs e)
+        {
+            base.OnTextChanged(e);
+            mediator.ColleaguesChanged();
         }
     }
 }

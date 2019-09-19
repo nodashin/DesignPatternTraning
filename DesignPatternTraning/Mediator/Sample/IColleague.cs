@@ -15,8 +15,8 @@ namespace Mediator.Sample
         /// <summary>
         /// このメソッドの引数で渡されたインスタンスは、後で相談役が必要になったとき(IMadiator.ColleaguesChangedを呼び出すとき)に使う。
         /// </summary>
-        /// <param name="madiator">相談役</param>
-        void SetMadiator(IMediator madiator);
+        /// <param name="mediator">相談役</param>
+        void SetMediator(IMediator mediator);
 
         /// <summary>
         /// 相談役からやってくる「指示」に相当する。

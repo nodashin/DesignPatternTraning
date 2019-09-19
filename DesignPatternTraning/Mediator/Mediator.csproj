@@ -53,6 +53,12 @@
     <Compile Include="Sample\ColleagueButton.Designer.cs">
       <DependentUpon>ColleagueButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sample\ColleagueTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sample\ColleagueTextBox.Designer.cs">
+      <DependentUpon>ColleagueTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sample\IColleague.cs" />
     <Compile Include="Sample\IMediator.cs" />
   </ItemGroup>
