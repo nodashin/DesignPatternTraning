@@ -24,6 +24,10 @@ namespace Mediator.Sample
             InitializeComponent();
         }
 
+        /// <summary>
+        /// コンストラクタ
+        /// </summary>
+        /// <param name="text"></param>
         public LoginForm(string text) : this()
         {
             this.Text = text;
