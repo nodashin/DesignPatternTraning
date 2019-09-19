@@ -31,17 +31,17 @@ namespace Memeton.Sample
                 //Mementoの取り扱いの決定
                 if(gamer.GetMoney() > memento.GetMoney())
                 {
-                    Console.WriteLine("(だいぶ増えたので、現在の状態を保存しておこう");
+                    Console.WriteLine("(だいぶ増えたので、現在の状態を保存しておこう)");
                     memento = gamer.CreateMemento();
                 }
                 else if(gamer.GetMoney() < memento.GetMoney() / 2)
                 {
-                    Console.WriteLine("(だいぶ減ったので、以前の状態に復帰しよう");
+                    Console.WriteLine("(だいぶ減ったので、以前の状態に復帰しよう)");
                     gamer.RestoreMemento(memento);
                 }
 
-                //時間待ち。
-                Thread.Sleep(1000);
+                ////時間待ち。
+                //Thread.Sleep(1000);
                 Console.WriteLine();
             }
         }
