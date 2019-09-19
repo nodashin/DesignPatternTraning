@@ -57,7 +57,7 @@ namespace Mediator.Sample
         protected override void OnTextChanged(EventArgs e)
         {
             base.OnTextChanged(e);
-            mediator.ColleaguesChanged();
+            mediator?.ColleaguesChanged();
         }
     }
 }

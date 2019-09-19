@@ -67,10 +67,20 @@
     </Compile>
     <Compile Include="Sample\IColleague.cs" />
     <Compile Include="Sample\IMediator.cs" />
+    <Compile Include="Sample\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sample\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Sample\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
