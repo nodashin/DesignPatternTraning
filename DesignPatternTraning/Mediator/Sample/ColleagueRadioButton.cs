@@ -12,6 +12,7 @@ namespace Mediator.Sample
 {
     /// <summary>
     /// IColleagueのインタフェースを実装。ラジオボタンを表すクラス。
+    /// 役割：ConcreteColleague(具体的な同僚)
     /// </summary>
     public partial class ColleagueRadioButton : RadioButton, IColleague
     {

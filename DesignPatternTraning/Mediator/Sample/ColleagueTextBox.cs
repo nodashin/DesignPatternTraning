@@ -12,6 +12,7 @@ namespace Mediator.Sample
 {
     /// <summary>
     /// IColleagueのインタフェースを実装。テキストの入力を行うクラス。
+    /// 役割：ConcreteColleague(具体的な同僚)
     /// </summary>
     public partial class ColleagueTextBox : TextBox, IColleague
     {

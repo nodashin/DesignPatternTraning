@@ -13,6 +13,7 @@ namespace Mediator.Sample
     /// <summary>
     /// IMediatorインタフェースを実装。
     /// ログインダイアログを表すクラス。
+    /// 役割：ConcreteMediator(具体的な調停者、仲介者)
     /// </summary>
     public partial class LoginForm : Form, IMediator
     {

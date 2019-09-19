@@ -9,6 +9,7 @@ namespace Mediator.Sample
     /// <summary>
     /// 「メンバー」のインタフェース(API)を定めるインタフェース。
     /// 具体的なメンバーは、このインタフェースを実装する。
+    /// 役割：Colleague(同僚)
     /// </summary>
     public interface IColleague
     {
