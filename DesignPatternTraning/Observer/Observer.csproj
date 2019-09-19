@@ -48,6 +48,7 @@
     <Compile Include="Sample\DigitObserver.cs" />
     <Compile Include="Sample\GraphObserver.cs" />
     <Compile Include="Sample\IObserver.cs" />
+    <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\NumberGenerator.cs" />
     <Compile Include="Sample\RandomNumberGenerator.cs" />
   </ItemGroup>
