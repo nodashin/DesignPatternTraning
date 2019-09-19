@@ -33,7 +33,7 @@ namespace Memeton.Sample.Game
         }
 
         /// <summary>
-        /// 所持金を得る。(narrow interface：狭いインタフェース)
+        /// 所持金を得る。(narrow interface：狭い(できることが少ない)インタフェース)
         /// </summary>
         /// <returns>所持金</returns>
         public int GetMoney()
