@@ -49,6 +49,7 @@
     <Compile Include="Sample\DayState.cs" />
     <Compile Include="Sample\IContext.cs" />
     <Compile Include="Sample\IState.cs" />
+    <Compile Include="Sample\Main.cs" />
     <Compile Include="Sample\NightState.cs" />
     <Compile Include="Sample\SafeForm.cs">
       <SubType>Form</SubType>
