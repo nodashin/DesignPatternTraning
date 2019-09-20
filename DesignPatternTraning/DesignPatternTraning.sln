@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memeton", "Memeton\Memeton.csproj", "{D32E8A5D-878A-40BD-8D2B-722E09AFD364}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{A471B51B-EF68-4DA8-9C9B-84ED49DD37C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,10 @@ Global
 		{D32E8A5D-878A-40BD-8D2B-722E09AFD364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32E8A5D-878A-40BD-8D2B-722E09AFD364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32E8A5D-878A-40BD-8D2B-722E09AFD364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A471B51B-EF68-4DA8-9C9B-84ED49DD37C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A471B51B-EF68-4DA8-9C9B-84ED49DD37C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A471B51B-EF68-4DA8-9C9B-84ED49DD37C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A471B51B-EF68-4DA8-9C9B-84ED49DD37C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
