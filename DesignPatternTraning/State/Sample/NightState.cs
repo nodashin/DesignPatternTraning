@@ -58,7 +58,7 @@ namespace State.Sample
         /// <param name="context">コンテキスト</param>
         public void DoAlarm(IContext context)
         {
-            context.CallSecurityCenter("非常ベル(夜間)");
+            context.CallSeculityCenter("非常ベル(夜間)");
         }
 
         /// <summary>
@@ -67,7 +67,7 @@ namespace State.Sample
         /// <param name="context">コンテキスト</param>
         public void DoPhone(IContext context)
         {
-            context.CallSecurityCenter("夜間の通話録音");
+            context.CallSeculityCenter("夜間の通話録音");
         }
 
         /// <summary>
