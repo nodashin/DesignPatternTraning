@@ -47,6 +47,7 @@
     <Compile Include="Sample\DayState.cs" />
     <Compile Include="Sample\IContext.cs" />
     <Compile Include="Sample\IState.cs" />
+    <Compile Include="Sample\NightState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
