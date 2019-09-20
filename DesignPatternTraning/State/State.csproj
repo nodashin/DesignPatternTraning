@@ -34,6 +34,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,10 +50,20 @@
     <Compile Include="Sample\IContext.cs" />
     <Compile Include="Sample\IState.cs" />
     <Compile Include="Sample\NightState.cs" />
+    <Compile Include="Sample\SafeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sample\SafeForm.Designer.cs">
+      <DependentUpon>SafeForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Sample\SafeForm.resx">
+      <DependentUpon>SafeForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
