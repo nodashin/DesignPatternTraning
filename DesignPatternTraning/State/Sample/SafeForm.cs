@@ -35,6 +35,7 @@ namespace State.Sample
         public SafeForm(string text) : this()
         {
             this.Text = text;
+            this.Refresh();
         }
 
         /// <summary>
@@ -68,6 +69,16 @@ namespace State.Sample
         }
 
         /// <summary>
+        /// 終了Button_Click
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        /// <summary>
         /// 時刻の設定。
         /// </summary>
         /// <param name="hour">時刻</param>
@@ -85,6 +96,7 @@ namespace State.Sample
             Console.WriteLine(clockString);
             this.textBoxCurrentTime.Text = clockString;
             state.DoClock(this, hour);
+            this.Refresh();
         }
 
         /// <summary>
@@ -95,6 +107,7 @@ namespace State.Sample
         {
             Console.WriteLine(this.state + "から" + state + "へ状態が変化しました。");
             this.state = state;
+            this.Refresh();
         }
 
         /// <summary>
@@ -104,6 +117,7 @@ namespace State.Sample
         public void CallSeculityCenter(string msg)
         {
             this.textBoxRecords.Text = "call!" + msg + "\n";
+            this.Refresh();
         }
 
         /// <summary>
@@ -113,6 +127,7 @@ namespace State.Sample
         public void RecordLog(string msg)
         {
             this.textBoxRecords.Text = "redord..." + msg + "\n";
+            this.Refresh();
         }
     }
 }

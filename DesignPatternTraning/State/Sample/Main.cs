@@ -12,8 +12,9 @@ namespace State.Sample
         public static void Execute()
         {
             SafeForm form = new SafeForm("State Sample");
-            form.Show();
-            while(true)
+            form.ShowDialog();
+
+            while (true)
             {
                 for (int i = 0; i < 24; i++)
                 {

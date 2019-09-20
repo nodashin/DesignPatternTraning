@@ -92,6 +92,7 @@
             this.buttonClose.TabIndex = 5;
             this.buttonClose.Text = "終了";
             this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // SafeForm
             // 
