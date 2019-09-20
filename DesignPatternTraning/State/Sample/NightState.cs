@@ -8,6 +8,7 @@ namespace State.Sample
 {
     /// <summary>
     /// IStateを実装しているクラス。夜間の状態を表す。
+    /// 役割：ConcreteState(具体的な状態)
     /// </summary>
     public class NightState : IState
     {

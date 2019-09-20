@@ -12,6 +12,7 @@ namespace State.Sample
 {
     /// <summary>
     /// IContextを実装しているクラス。ボタンや画面表示などのユーザーインタフェースを持つ。
+    /// 役割：Context(状況、前後関係、文脈)
     /// </summary>
     public partial class SafeForm : Form, IContext
     {

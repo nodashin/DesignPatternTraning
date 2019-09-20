@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// 金庫の状態を管理し、警備センターとの連絡をとるインタフェース。
+    /// 役割：Context(状況、前後関係、文脈)
     /// </summary>
     public interface IContext
     {

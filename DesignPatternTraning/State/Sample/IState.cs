@@ -8,6 +8,7 @@ namespace State.Sample
 {
     /// <summary>
     /// 金庫の状態を表すインタフェース。
+    /// 役割：State(状態)
     /// </summary>
     public interface IState
     {
