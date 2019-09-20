@@ -16,6 +16,11 @@ namespace State.Sample
     public partial class SafeForm : Form, IContext
     {
         /// <summary>
+        /// 現在の状態
+        /// </summary>
+        private IState state = DayState.GetInstance();
+
+        /// <summary>
         /// コンストラクタ
         /// </summary>
         public SafeForm()
@@ -32,24 +37,82 @@ namespace State.Sample
             this.Text = text;
         }
 
-        public void CallSeculityCenter(string msg)
+        /// <summary>
+        /// 金庫使用Button_Click
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
+        private void buttonUse_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            state.DoUse(this);
         }
 
-        public void ChangeState(IState state)
+        /// <summary>
+        /// 非常ベルButton_Click
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
+        private void buttonAlram_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            state.DoAlarm(this);
         }
 
-        public void RecordLog(string msg)
+        /// <summary>
+        /// 通常通話Button_Click
+        /// </summary>
+        /// <param name="sender">object</param>
+        /// <param name="e">EventArgs</param>
+        private void buttonPhone_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            state.DoPhone(this);
         }
 
+        /// <summary>
+        /// 時刻の設定。
+        /// </summary>
+        /// <param name="hour">時刻</param>
         public void SetClock(int hour)
         {
-            throw new NotImplementedException();
+            string clockString = "現在時刻は";
+            if(hour < 10)
+            {
+                clockString += "0" + hour + ":00";
+            }
+            else
+            {
+                clockString += hour + ":00";
+            }
+            Console.WriteLine(clockString);
+            this.textBoxCurrentTime.Text = clockString;
+            state.DoClock(this, hour);
+        }
+
+        /// <summary>
+        /// 状態変化
+        /// </summary>
+        /// <param name="state">状態</param>
+        public void ChangeState(IState state)
+        {
+            Console.WriteLine(this.state + "から" + state + "へ状態が変化しました。");
+            this.state = state;
+        }
+
+        /// <summary>
+        /// 警備センター呼び出し
+        /// </summary>
+        /// <param name="msg">メッセージ</param>
+        public void CallSeculityCenter(string msg)
+        {
+            this.textBoxRecords.Text = "call!" + msg + "\n";
+        }
+
+        /// <summary>
+        /// 警備センター記録
+        /// </summary>
+        /// <param name="msg">メッセージ</param>
+        public void RecordLog(string msg)
+        {
+            this.textBoxRecords.Text = "redord..." + msg + "\n";
         }
     }
 }

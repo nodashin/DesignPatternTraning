@@ -39,7 +39,7 @@ namespace State.Sample
         {
             if (9 <= hour && hour < 17)
             {
-                context.ChangeState(NightState.GetInstance());
+                context.ChangeState(DayState.GetInstance());
             }
         }
 

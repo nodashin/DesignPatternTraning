@@ -62,6 +62,7 @@
             this.buttonUse.TabIndex = 2;
             this.buttonUse.Text = "金庫使用";
             this.buttonUse.UseVisualStyleBackColor = true;
+            this.buttonUse.Click += new System.EventHandler(this.buttonUse_Click);
             // 
             // buttonAlram
             // 
@@ -71,6 +72,7 @@
             this.buttonAlram.TabIndex = 3;
             this.buttonAlram.Text = "非常ベル";
             this.buttonAlram.UseVisualStyleBackColor = true;
+            this.buttonAlram.Click += new System.EventHandler(this.buttonAlram_Click);
             // 
             // buttonPhone
             // 
@@ -80,6 +82,7 @@
             this.buttonPhone.TabIndex = 4;
             this.buttonPhone.Text = "通常通話";
             this.buttonPhone.UseVisualStyleBackColor = true;
+            this.buttonPhone.Click += new System.EventHandler(this.buttonPhone_Click);
             // 
             // buttonClose
             // 
