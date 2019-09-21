@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Command.Sample.Drawer
+namespace Command.Sample
 {
     public partial class MainForm : Form
     {

@@ -57,10 +57,10 @@
     </Compile>
     <Compile Include="Sample\Drawer\DrawCommand.cs" />
     <Compile Include="Sample\Drawer\IDrawable.cs" />
-    <Compile Include="Sample\Drawer\MainForm.cs">
+    <Compile Include="Sample\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sample\Drawer\MainForm.Designer.cs">
+    <Compile Include="Sample\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -68,7 +68,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Sample\Drawer\MainForm.resx">
+    <EmbeddedResource Include="Sample\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>

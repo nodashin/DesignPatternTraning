@@ -1,4 +1,4 @@
-﻿namespace Command.Sample.Drawer
+﻿namespace Command.Sample
 {
     partial class MainForm
     {
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonClear = new System.Windows.Forms.Button();
-            this.drawCanvas = new Command.Sample.Drawer.DrawCanvas();
+            this.drawCanvas1 = new Command.Sample.Drawer.DrawCanvas();
             this.SuspendLayout();
             // 
             // buttonClear
@@ -41,21 +41,21 @@
             this.buttonClear.Text = "clear";
             this.buttonClear.UseVisualStyleBackColor = true;
             // 
-            // drawCanvas
+            // drawCanvas1
             // 
-            this.drawCanvas.BackColor = System.Drawing.Color.White;
-            this.drawCanvas.Location = new System.Drawing.Point(12, 42);
-            this.drawCanvas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.drawCanvas.Name = "drawCanvas";
-            this.drawCanvas.Size = new System.Drawing.Size(400, 400);
-            this.drawCanvas.TabIndex = 1;
+            this.drawCanvas1.BackColor = System.Drawing.Color.White;
+            this.drawCanvas1.Location = new System.Drawing.Point(13, 46);
+            this.drawCanvas1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.drawCanvas1.Name = "drawCanvas1";
+            this.drawCanvas1.Size = new System.Drawing.Size(400, 400);
+            this.drawCanvas1.TabIndex = 1;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 463);
-            this.Controls.Add(this.drawCanvas);
+            this.ClientSize = new System.Drawing.Size(425, 459);
+            this.Controls.Add(this.drawCanvas1);
             this.Controls.Add(this.buttonClear);
             this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -69,6 +69,6 @@
         #endregion
 
         private System.Windows.Forms.Button buttonClear;
-        private Command.Sample.Drawer.DrawCanvas drawCanvas;
+        private Command.Sample.Drawer.DrawCanvas drawCanvas1;
     }
 }
