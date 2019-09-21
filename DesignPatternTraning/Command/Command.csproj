@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sample\Command\ICommand.cs" />
     <Compile Include="Sample\Command\MacroCommand.cs" />
+    <Compile Include="Sample\Drawer\DrawCommand.cs" />
+    <Compile Include="Sample\Drawer\IDrawable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
