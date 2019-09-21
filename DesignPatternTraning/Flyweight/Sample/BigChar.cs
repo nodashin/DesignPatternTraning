@@ -9,6 +9,7 @@ namespace Flyweight.Sample
 {
     /// <summary>
     /// 「大きな文字」を表すクラス。
+    /// 役割：Flyweight(フライ級)
     /// </summary>
     public class BigChar
     {

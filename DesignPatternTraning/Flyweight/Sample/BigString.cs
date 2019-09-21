@@ -8,6 +8,7 @@ namespace Flyweight.Sample
 {
     /// <summary>
     /// BigCharを集めて作った「大きな文字列」を表すクラス。
+    /// 役割：Client(依頼者)
     /// </summary>
     public class BigString
     {

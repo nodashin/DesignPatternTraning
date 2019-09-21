@@ -8,6 +8,7 @@ namespace Flyweight.Sample
 {
     /// <summary>
     /// BigCharのインスタンスを共有しながら生成するクラス
+    /// 役割：FlyweightFactory(フライ級の工場)
     /// </summary>
     public class BigCharFactory
     {
