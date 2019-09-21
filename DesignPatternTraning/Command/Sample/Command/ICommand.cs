@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Command.Sample
+namespace Command.Sample.Command
 {
     /// <summary>
     /// 「命令」を表現するインタフェース
