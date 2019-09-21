@@ -37,13 +37,13 @@ namespace Proxy.Sample
         /// <param name="name">名前</param>
         public void SetPrinterName(string name)
         {
-            Monitor.Enter(real);
             if (real != null)
             {
+                Monitor.Enter(real);
                 real.SetPrinterName(name);
+                Monitor.Exit(real);
             }
             this.name = name;
-            Monitor.Exit(real);
         }
 
         /// <summary>
@@ -70,12 +70,12 @@ namespace Proxy.Sample
         /// </summary>
         private void Realize()
         {
-            Monitor.Enter(real);
             if(real == null)
             {
+                Monitor.Enter(real);
                 real = new Printer(name);
+                Monitor.Exit(real);
             }
-            Monitor.Exit(real);
         }
     }
 }
