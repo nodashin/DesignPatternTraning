@@ -62,7 +62,9 @@ namespace Proxy.Sample
         public void Print(string @string)
         {
             Realize();
+            Monitor.Enter(real);
             real.Print(@string);
+            Monitor.Exit(real);
         }
 
         /// <summary>
@@ -72,9 +74,7 @@ namespace Proxy.Sample
         {
             if(real == null)
             {
-                Monitor.Enter(real);
                 real = new Printer(name);
-                Monitor.Exit(real);
             }
         }
     }
