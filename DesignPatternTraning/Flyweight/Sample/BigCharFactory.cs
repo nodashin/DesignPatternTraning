@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Flyweight.Sample
@@ -45,6 +46,7 @@ namespace Flyweight.Sample
         /// <returns>BigChar</returns>
         public BigChar GetBigChar(char charName)
         {
+            Monitor.Enter(pool);
             BigChar bc;
             if(pool.ContainsKey(charName))
             {
@@ -55,6 +57,7 @@ namespace Flyweight.Sample
                 bc = new BigChar(charName);
                 pool.Add(charName, bc);
             }
+            Monitor.Exit(pool);
             return bc;
         }
     }
