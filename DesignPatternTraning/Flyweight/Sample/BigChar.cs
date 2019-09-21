@@ -31,7 +31,7 @@ namespace Flyweight.Sample
             this.charName = charName;
             try
             {
-            StreamReader reader = new StreamReader("big" + charName + ".txt");
+            StreamReader reader = new StreamReader("Files\big" + charName + ".txt");
             string line;
             StringBuilder buf = new StringBuilder();
             while((line = reader.ReadLine()) != null)

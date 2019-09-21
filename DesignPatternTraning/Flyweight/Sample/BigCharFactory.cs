@@ -45,7 +45,7 @@ namespace Flyweight.Sample
         public BigChar GetBigChar(char charName)
         {
             BigChar bc;
-            if(!pool.ContainsKey(charName))
+            if(pool.ContainsKey(charName))
             {
                 bc = pool[charName];
             }
