@@ -40,6 +40,7 @@
             this.buttonClear.TabIndex = 0;
             this.buttonClear.Text = "clear";
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // drawCanvas
             // 
@@ -49,6 +50,9 @@
             this.drawCanvas.Name = "drawCanvas";
             this.drawCanvas.Size = new System.Drawing.Size(400, 400);
             this.drawCanvas.TabIndex = 1;
+            this.drawCanvas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.drawCanvas_MouseDown);
+            this.drawCanvas.MouseMove += new System.Windows.Forms.MouseEventHandler(this.drawCanvas_MouseMove);
+            this.drawCanvas.MouseUp += new System.Windows.Forms.MouseEventHandler(this.drawCanvas_MouseUp);
             // 
             // MainForm
             // 
