@@ -9,6 +9,7 @@ namespace Proxy.Sample
 {
     /// <summary>
     /// 名前つきのプリンタを表すクラス(本人)
+    /// 役割：RealSubject(実際の主体)
     /// </summary>
     public class Printer : IPrintable
     {

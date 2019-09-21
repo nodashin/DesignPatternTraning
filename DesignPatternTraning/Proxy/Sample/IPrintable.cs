@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// PrinterとPrinterProxyに共通のインタフェース
+    /// 役割：Subject(主体)
     /// </summary>
     public interface IPrintable
     {
