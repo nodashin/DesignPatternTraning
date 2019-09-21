@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonClear = new System.Windows.Forms.Button();
-            this.drawCanvas = new Command.Sample.Drawer.DrawCanvas();
+            this.drawCanvas = new Sample.Drawer.DrawCanvas();
             this.SuspendLayout();
             // 
             // buttonClear

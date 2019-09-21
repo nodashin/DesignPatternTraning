@@ -10,6 +10,7 @@ namespace Command
     {
         static void Main(string[] args)
         {
+            new Sample.MainForm("Command petttern Sample").ShowDialog();
         }
     }
 }
