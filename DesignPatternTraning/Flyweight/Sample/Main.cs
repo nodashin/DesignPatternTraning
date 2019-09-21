@@ -12,6 +12,7 @@ namespace Flyweight.Sample
         {
             Console.Write("数字を入力してください：");
             var inputNumnbers = Console.ReadLine();
+            Console.WriteLine();
 
             BigString bs = new BigString(inputNumnbers);
             bs.Print();

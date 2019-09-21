@@ -31,19 +31,20 @@ namespace Flyweight.Sample
             this.charName = charName;
             try
             {
-            StreamReader reader = new StreamReader(@"Files\big" + charName + ".txt");
-            string line;
-            StringBuilder buf = new StringBuilder();
-            while((line = reader.ReadLine()) != null)
-            {
-                buf.Append(line);
-                buf.Append('\n');
+                StreamReader reader = new StreamReader(@"Sample\Files\big" + charName + ".txt");
+                string line;
+                StringBuilder buf = new StringBuilder();
+                while ((line = reader.ReadLine()) != null)
+                {
+                    buf.Append(line);
+                    buf.Append('\n');
+                }
+                reader.Close();
+                this.fontData = buf.ToString();
             }
-            reader.Close();
-            this.fontData = buf.ToString();
-            }
-            catch (IOException)
+            catch (IOException ex)
             {
+                Console.WriteLine(ex.ToString());
                 this.fontData = charName + "?";
             }
         }
