@@ -8,6 +8,7 @@ namespace Command.Sample.Command
 {
     /// <summary>
     /// 「複数の命令をまとめた命令」を表現するクラス。
+    /// 役割：ConcreteCommand(具体的命令)
     /// </summary>
     public class MacroCommand : ICommand
     {

@@ -14,6 +14,7 @@ namespace Command.Sample
 {
     /// <summary>
     /// 画面
+    /// 役割：Client(依頼者), Invoker(起動者)
     /// </summary>
     /// <remarks>
     /// 参考書だけではC#に置き換えられなかったので下記URLを参考にした。

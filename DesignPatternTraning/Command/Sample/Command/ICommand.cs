@@ -8,6 +8,7 @@ namespace Command.Sample.Command
 {
     /// <summary>
     /// 「命令」を表現するインタフェース
+    /// 役割：Command(命令), Invoker(起動者)
     /// </summary>
     public interface ICommand
     {

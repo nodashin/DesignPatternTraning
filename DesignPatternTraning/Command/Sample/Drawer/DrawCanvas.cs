@@ -13,6 +13,7 @@ namespace Command.Sample.Drawer
 {
     /// <summary>
     /// 「描画対象」を実装したクラス。
+    /// 役割：Receiver(受信者)
     /// </summary>
     /// <remarks>
     /// 参考書だけではC#に置き換えられなかったので下記URLを参考にした。
