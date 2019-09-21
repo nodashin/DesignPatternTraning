@@ -57,10 +57,20 @@
     </Compile>
     <Compile Include="Sample\Drawer\DrawCommand.cs" />
     <Compile Include="Sample\Drawer\IDrawable.cs" />
+    <Compile Include="Sample\Drawer\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sample\Drawer\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Sample\Drawer\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
