@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonClear = new System.Windows.Forms.Button();
-            this.drawCanvas1 = new Command.Sample.Drawer.DrawCanvas();
+            this.drawCanvas1 = new Sample.Drawer.DrawCanvas();
             this.SuspendLayout();
             // 
             // buttonClear
@@ -69,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Button buttonClear;
-        private Command.Sample.Drawer.DrawCanvas drawCanvas1;
+        private Sample.Drawer.DrawCanvas drawCanvas1;
+        
     }
 }
